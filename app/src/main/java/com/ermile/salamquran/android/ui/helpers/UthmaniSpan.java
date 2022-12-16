@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
-import com.ermile.salamquran.android.ui.util.TypefaceManager;
+import com.ermile.maalquran.android.ui.util.TypefaceManager;
 
 import android.content.Context;
 import android.graphics.Typeface;

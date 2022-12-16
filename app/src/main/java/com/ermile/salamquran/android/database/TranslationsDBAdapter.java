@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.database;
+package com.ermile.maalquran.android.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,10 +6,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.SparseArray;
 
-import com.ermile.salamquran.android.common.LocalTranslation;
-import com.ermile.salamquran.android.dao.translation.Translation;
-import com.ermile.salamquran.android.dao.translation.TranslationItem;
-import com.ermile.salamquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.common.LocalTranslation;
+import com.ermile.maalquran.android.dao.translation.Translation;
+import com.ermile.maalquran.android.dao.translation.TranslationItem;
+import com.ermile.maalquran.android.util.QuranFileUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,7 +22,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 import timber.log.Timber;
 
-import static com.ermile.salamquran.android.database.TranslationsDBHelper.TranslationsTable;
+import static com.ermile.maalquran.android.database.TranslationsDBHelper.TranslationsTable;
 
 @Singleton
 public class TranslationsDBAdapter {

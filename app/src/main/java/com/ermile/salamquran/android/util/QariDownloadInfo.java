@@ -1,9 +1,9 @@
-package com.ermile.salamquran.android.util;
+package com.ermile.maalquran.android.util;
 
 import android.util.Pair;
 import android.util.SparseBooleanArray;
 
-import com.ermile.salamquran.android.common.QariItem;
+import com.ermile.maalquran.android.common.QariItem;
 
 import java.util.Collections;
 import java.util.List;

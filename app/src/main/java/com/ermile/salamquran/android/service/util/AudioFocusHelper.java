@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-package com.ermile.salamquran.android.service.util;
+package com.ermile.maalquran.android.service.util;
 
 import android.annotation.TargetApi;
 import android.content.Context;

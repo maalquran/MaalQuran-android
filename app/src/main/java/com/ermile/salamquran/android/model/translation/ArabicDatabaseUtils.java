@@ -1,17 +1,17 @@
-package com.ermile.salamquran.android.model.translation;
+package com.ermile.maalquran.android.model.translation;
 
 import android.content.Context;
 import android.database.Cursor;
 
-import com.ermile.salamquran.android.common.QuranText;
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.data.QuranDataProvider;
-import com.ermile.salamquran.android.data.QuranFileConstants;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.data.SuraAyah;
-import com.ermile.salamquran.android.database.DatabaseHandler;
-import com.ermile.salamquran.android.database.DatabaseUtils;
-import com.ermile.salamquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.common.QuranText;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.data.QuranDataProvider;
+import com.ermile.maalquran.android.data.QuranFileConstants;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.database.DatabaseHandler;
+import com.ermile.maalquran.android.database.DatabaseUtils;
+import com.ermile.maalquran.android.util.QuranFileUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

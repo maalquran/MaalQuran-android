@@ -1,8 +1,8 @@
-package com.ermile.salamquran.android.salamquran.Utility;
+package com.ermile.maalquran.android.maalquran.Utility;
 
 import android.content.Context;
 
-import com.ermile.salamquran.android.BuildConfig;
+import com.ermile.maalquran.android.BuildConfig;
 
 public class UserInfo {
   public static String versionName = BuildConfig.VERSION_NAME;

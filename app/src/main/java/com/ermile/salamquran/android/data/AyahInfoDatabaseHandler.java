@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.data;
+package com.ermile.maalquran.android.data;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -7,8 +7,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.RectF;
 import androidx.annotation.NonNull;
 
-import com.ermile.salamquran.android.database.DatabaseUtils;
-import com.ermile.salamquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.database.DatabaseUtils;
+import com.ermile.maalquran.android.util.QuranFileUtils;
 import com.ermile.page.common.data.AyahBounds;
 import com.ermile.page.common.data.AyahCoordinates;
 import com.ermile.page.common.data.AyahMarkerLocation;

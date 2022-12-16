@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.di;
+package com.ermile.maalquran.android.di;
 
 import javax.inject.Scope;
 

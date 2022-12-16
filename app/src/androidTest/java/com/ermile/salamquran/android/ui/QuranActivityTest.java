@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.ui;
+package com.ermile.maalquran.android.ui;
 
-import com.ermile.salamquran.android.BaseActivityTest;
+import com.ermile.maalquran.android.BaseActivityTest;
 
 import org.junit.Before;
 import org.junit.Test;

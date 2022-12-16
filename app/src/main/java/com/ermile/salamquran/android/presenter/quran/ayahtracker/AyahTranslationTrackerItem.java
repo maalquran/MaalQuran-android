@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.presenter.quran.ayahtracker;
+package com.ermile.maalquran.android.presenter.quran.ayahtracker;
 
 import androidx.annotation.NonNull;
 
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.ui.helpers.HighlightType;
-import com.ermile.salamquran.android.ui.translation.TranslationView;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.ui.helpers.HighlightType;
+import com.ermile.maalquran.android.ui.translation.TranslationView;
 
 public class AyahTranslationTrackerItem extends AyahTrackerItem<TranslationView> {
   private final QuranInfo quranInfo;

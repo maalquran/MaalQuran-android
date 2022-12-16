@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.ui.fragment;
+package com.ermile.maalquran.android.ui.fragment;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 
-import com.ermile.salamquran.android.data.SuraAyah;
-import com.ermile.salamquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.ui.PagerActivity;
 
 public abstract class AyahActionFragment extends Fragment {
 

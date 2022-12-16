@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.fragment;
+package com.ermile.maalquran.android.ui.fragment;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -15,21 +15,21 @@ import android.widget.Toast;
 
 //import com.crashlytics.android.answers.Answers; //1L
 //import com.crashlytics.android.answers.CustomEvent; //1L
-import com.ermile.salamquran.android.BuildConfig;
-import com.ermile.salamquran.android.QuranAdvancedPreferenceActivity;
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.QuranImportActivity;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.model.bookmark.BookmarkImportExportModel;
-import com.ermile.salamquran.android.service.util.PermissionUtil;
-import com.ermile.salamquran.android.ui.preference.DataListPreference;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.util.QuranScreenInfo;
-import com.ermile.salamquran.android.util.QuranSettings;
-import com.ermile.salamquran.android.util.QuranUtils;
-import com.ermile.salamquran.android.util.RecordingLogTree;
-import com.ermile.salamquran.android.util.StorageUtils;
+import com.ermile.maalquran.android.BuildConfig;
+import com.ermile.maalquran.android.QuranAdvancedPreferenceActivity;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.QuranImportActivity;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.model.bookmark.BookmarkImportExportModel;
+import com.ermile.maalquran.android.service.util.PermissionUtil;
+import com.ermile.maalquran.android.ui.preference.DataListPreference;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.util.QuranScreenInfo;
+import com.ermile.maalquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.util.RecordingLogTree;
+import com.ermile.maalquran.android.util.StorageUtils;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -15,9 +15,9 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.util.SparseArray;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.ui.helpers.HighlightType;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.ui.helpers.HighlightType;
 import com.ermile.page.common.data.AyahBounds;
 import com.ermile.page.common.data.AyahCoordinates;
 import com.ermile.page.common.data.PageCoordinates;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
   <domain-config cleartextTrafficPermitted="true">
-    <domain includeSubdomains="true">salamquran.com</domain>
-    <domain includeSubdomains="true">dl.salamquran.com</domain>
+    <domain includeSubdomains="true">maalquran.com</domain>
+    <domain includeSubdomains="true">dl.maalquran.com</domain>
   </domain-config>
 </network-security-config>

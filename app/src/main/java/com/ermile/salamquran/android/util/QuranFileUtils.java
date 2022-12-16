@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.util;
+package com.ermile.maalquran.android.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -6,10 +6,10 @@ import android.graphics.BitmapFactory;
 import android.os.Environment;
 
 import com.ermile.data.source.PageProvider;
-import com.ermile.salamquran.android.BuildConfig;
-import com.ermile.salamquran.android.common.Response;
-import com.ermile.salamquran.android.data.QuranDataProvider;
-import com.ermile.salamquran.android.extension.CloseableExtensionKt;
+import com.ermile.maalquran.android.BuildConfig;
+import com.ermile.maalquran.android.common.Response;
+import com.ermile.maalquran.android.data.QuranDataProvider;
+import com.ermile.maalquran.android.extension.CloseableExtensionKt;
 
 import java.io.File;
 import java.io.FileInputStream;

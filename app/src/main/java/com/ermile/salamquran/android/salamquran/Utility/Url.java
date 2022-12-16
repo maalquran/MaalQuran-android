@@ -1,9 +1,9 @@
-package com.ermile.salamquran.android.salamquran.Utility;
+package com.ermile.maalquran.android.maalquran.Utility;
 
 import android.content.Context;
 
 public class Url {
-  public static String site = "https://salamquran.com";
+  public static String site = "https://maalquran.com";
   public static String api = site+"/api/v6";
   public static String apiV6 = "/api/v6";
 

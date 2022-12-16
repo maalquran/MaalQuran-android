@@ -1,12 +1,12 @@
-package com.ermile.salamquran.android.presenter.quran.ayahtracker;
+package com.ermile.maalquran.android.presenter.quran.ayahtracker;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.data.SuraAyah;
-import com.ermile.salamquran.android.ui.helpers.HighlightType;
-import com.ermile.salamquran.android.widgets.AyahToolBar;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.ui.helpers.HighlightType;
+import com.ermile.maalquran.android.widgets.AyahToolBar;
 import com.ermile.page.common.data.AyahCoordinates;
 import com.ermile.page.common.data.PageCoordinates;
 

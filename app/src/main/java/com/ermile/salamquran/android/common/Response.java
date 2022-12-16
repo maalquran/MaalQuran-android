@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.common;
+package com.ermile.maalquran.android.common;
 
 import android.graphics.Bitmap;
 

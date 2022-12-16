@@ -1,12 +1,12 @@
-package com.ermile.salamquran.android.presenter;
+package com.ermile.maalquran.android.presenter;
 
 import android.content.ContentResolver;
 import android.content.Context;
 import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 
-import com.ermile.salamquran.android.model.bookmark.BookmarkImportExportModel;
-import com.ermile.salamquran.android.model.bookmark.BookmarkModel;
+import com.ermile.maalquran.android.model.bookmark.BookmarkImportExportModel;
+import com.ermile.maalquran.android.model.bookmark.BookmarkModel;
 
 import org.junit.Before;
 import org.junit.Test;

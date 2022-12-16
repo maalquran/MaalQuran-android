@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -13,11 +13,11 @@ import androidx.annotation.NonNull;
 import android.view.Display;
 import android.widget.Toast;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.common.Response;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.common.Response;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.util.QuranUtils;
 
 import okhttp3.OkHttpClient;
 import timber.log.Timber;

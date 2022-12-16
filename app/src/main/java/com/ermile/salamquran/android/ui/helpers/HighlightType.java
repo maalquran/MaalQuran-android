@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 
 public class HighlightType implements Comparable<HighlightType> {
 

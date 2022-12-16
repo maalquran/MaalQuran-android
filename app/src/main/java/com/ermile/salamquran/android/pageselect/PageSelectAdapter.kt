@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.pageselect
+package com.ermile.maalquran.android.pageselect
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.ermile.salamquran.android.R
+import com.ermile.maalquran.android.R
 import io.reactivex.Maybe
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable

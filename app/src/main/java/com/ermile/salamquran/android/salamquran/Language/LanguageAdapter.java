@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Language;
+package com.ermile.maalquran.android.maalquran.Language;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Utility.SaveManager;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Utility.SaveManager;
 
 import org.jetbrains.annotations.NotNull;
 

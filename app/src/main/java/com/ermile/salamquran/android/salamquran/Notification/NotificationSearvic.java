@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Notification;
+package com.ermile.maalquran.android.maalquran.Notification;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
@@ -20,10 +20,10 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Splash;
-import com.ermile.salamquran.android.salamquran.Utility.TempLoginUtil;
-import com.ermile.salamquran.android.salamquran.tag;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Splash;
+import com.ermile.maalquran.android.maalquran.Utility.TempLoginUtil;
+import com.ermile.maalquran.android.maalquran.tag;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -31,7 +31,7 @@ import org.json.JSONObject;
 
 import java.util.Random;
 
-import static com.ermile.salamquran.android.salamquran.Notification.Attribuites.FCM_ACTION_CLICK_NOTIFICATION;
+import static com.ermile.maalquran.android.maalquran.Notification.Attribuites.FCM_ACTION_CLICK_NOTIFICATION;
 
 @SuppressLint("LogNotTimber")
 public class NotificationSearvic extends Service {
@@ -147,7 +147,7 @@ public class NotificationSearvic extends Service {
         .setContentIntent(pendingIntent)
         .setContentInfo(info)
         .setSmallIcon(R.drawable.ic_notification)
-        .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.salamquran))
+        .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.maalquran))
         .setColor(ContextCompat.getColor(this, R.color.colorPrimary));
     notificationManager.notify(100+randomNumber+id, builder.build());
   }

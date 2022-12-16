@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.fragment;
+package com.ermile.maalquran.android.ui.fragment;
 
 
 import android.content.Context;
@@ -11,15 +11,15 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.dao.audio.AudioRequest;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.data.SuraAyah;
-import com.ermile.salamquran.android.ui.PagerActivity;
-import com.ermile.salamquran.android.ui.helpers.HighlightType;
-import com.ermile.salamquran.android.util.QuranUtils;
-import com.ermile.salamquran.android.widgets.QuranSpinner;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.dao.audio.AudioRequest;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.ui.helpers.HighlightType;
+import com.ermile.maalquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.widgets.QuranSpinner;
 
 import javax.inject.Inject;
 

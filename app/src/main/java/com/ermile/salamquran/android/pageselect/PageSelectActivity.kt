@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.pageselect
+package com.ermile.maalquran.android.pageselect
 
 import android.content.Intent
 import android.os.Build
@@ -8,11 +8,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 //import com.crashlytics.android.answers.Answers //1L
 //import com.crashlytics.android.answers.CustomEvent //1L
-import com.ermile.salamquran.android.QuranApplication
-import com.ermile.salamquran.android.QuranDataActivity
-import com.ermile.salamquran.android.R
-import com.ermile.salamquran.android.ui.helpers.QuranDisplayHelper
-import com.ermile.salamquran.android.util.QuranSettings
+import com.ermile.maalquran.android.QuranApplication
+import com.ermile.maalquran.android.QuranDataActivity
+import com.ermile.maalquran.android.R
+import com.ermile.maalquran.android.ui.helpers.QuranDisplayHelper
+import com.ermile.maalquran.android.util.QuranSettings
 import javax.inject.Inject
 
 class PageSelectActivity : AppCompatActivity() {

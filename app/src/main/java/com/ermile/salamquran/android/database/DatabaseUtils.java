@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.database;
+package com.ermile.maalquran.android.database;
 
 import android.database.Cursor;
 

@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.data;
+package com.ermile.maalquran.android.data;
 
 import android.app.SearchManager;
 import android.content.ContentProvider;
@@ -12,15 +12,15 @@ import android.net.Uri;
 import android.provider.BaseColumns;
 
 //import com.crashlytics.android.Crashlytics;
-import com.ermile.salamquran.android.BuildConfig;
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.common.LocalTranslation;
-import com.ermile.salamquran.android.database.DatabaseHandler;
-import com.ermile.salamquran.android.database.DatabaseUtils;
-import com.ermile.salamquran.android.database.TranslationsDBAdapter;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.BuildConfig;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.common.LocalTranslation;
+import com.ermile.maalquran.android.database.DatabaseHandler;
+import com.ermile.maalquran.android.database.DatabaseUtils;
+import com.ermile.maalquran.android.database.TranslationsDBAdapter;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.util.QuranUtils;
 
 import java.util.List;
 
@@ -35,7 +35,7 @@ public class QuranDataProvider extends ContentProvider {
   public static final Uri SEARCH_URI = Uri.parse("content://" + AUTHORITY + "/quran/search");
 
   public static final String VERSES_MIME_TYPE =
-      ContentResolver.CURSOR_DIR_BASE_TYPE + "/vnd.com.ermile.salamquran.android";
+      ContentResolver.CURSOR_DIR_BASE_TYPE + "/vnd.com.ermile.maalquran.android";
   public static final String QURAN_ARABIC_DATABASE = QuranFileConstants.ARABIC_DATABASE;
 
   // UriMatcher stuff

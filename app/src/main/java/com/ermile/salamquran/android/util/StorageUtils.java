@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.util;
+package com.ermile.maalquran.android.util;
 
 import android.content.Context;
 import android.os.Build;
@@ -6,7 +6,7 @@ import android.os.Environment;
 import android.os.StatFs;
 import androidx.core.content.ContextCompat;
 
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -4,7 +4,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-package com.ermile.salamquran.android.ui.preference;
+package com.ermile.maalquran.android.ui.preference;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -15,9 +15,9 @@ import android.util.AttributeSet;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.util.QuranUtils;
 
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;

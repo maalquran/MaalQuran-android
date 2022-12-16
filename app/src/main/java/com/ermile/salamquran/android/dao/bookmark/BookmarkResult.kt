@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.dao.bookmark
+package com.ermile.maalquran.android.dao.bookmark
 
-import com.ermile.salamquran.android.dao.Tag
-import com.ermile.salamquran.android.ui.helpers.QuranRow
+import com.ermile.maalquran.android.dao.Tag
+import com.ermile.maalquran.android.ui.helpers.QuranRow
 
 data class BookmarkResult(val rows: List<QuranRow>, val tagMap: Map<Long, Tag>)

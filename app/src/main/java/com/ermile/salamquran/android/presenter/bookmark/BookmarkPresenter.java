@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.presenter.bookmark;
+package com.ermile.maalquran.android.presenter.bookmark;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,21 +7,21 @@ import com.google.android.material.snackbar.Snackbar;
 
 //import com.crashlytics.android.answers.Answers; //1L
 //import com.crashlytics.android.answers.CustomEvent; //1L
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.dao.bookmark.BookmarkData;
-import com.ermile.salamquran.android.dao.RecentPage;
-import com.ermile.salamquran.android.dao.Tag;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.model.bookmark.BookmarkModel;
-import com.ermile.salamquran.android.dao.bookmark.BookmarkResult;
-import com.ermile.salamquran.android.model.translation.ArabicDatabaseUtils;
-import com.ermile.salamquran.android.presenter.Presenter;
-import com.ermile.salamquran.android.ui.fragment.BookmarksFragment;
-import com.ermile.salamquran.android.ui.helpers.QuranRow;
-import com.ermile.salamquran.android.ui.helpers.QuranRowFactory;
-import com.ermile.salamquran.android.util.QuranSettings;
-import com.ermile.salamquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkData;
+import com.ermile.maalquran.android.dao.RecentPage;
+import com.ermile.maalquran.android.dao.Tag;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.model.bookmark.BookmarkModel;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkResult;
+import com.ermile.maalquran.android.model.translation.ArabicDatabaseUtils;
+import com.ermile.maalquran.android.presenter.Presenter;
+import com.ermile.maalquran.android.ui.fragment.BookmarksFragment;
+import com.ermile.maalquran.android.ui.helpers.QuranRow;
+import com.ermile.maalquran.android.ui.helpers.QuranRowFactory;
+import com.ermile.maalquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.util.QuranUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

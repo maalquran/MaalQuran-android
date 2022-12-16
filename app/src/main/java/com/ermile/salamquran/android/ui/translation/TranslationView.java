@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.translation;
+package com.ermile.maalquran.android.ui.translation;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -7,14 +7,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.ermile.salamquran.android.BuildConfig;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.common.LocalTranslation;
-import com.ermile.salamquran.android.common.QuranAyahInfo;
-import com.ermile.salamquran.android.common.TranslationMetadata;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.util.QuranSettings;
-import com.ermile.salamquran.android.widgets.AyahToolBar;
+import com.ermile.maalquran.android.BuildConfig;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.common.LocalTranslation;
+import com.ermile.maalquran.android.common.QuranAyahInfo;
+import com.ermile.maalquran.android.common.TranslationMetadata;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.widgets.AyahToolBar;
 
 import org.jetbrains.annotations.NotNull;
 

@@ -5,10 +5,10 @@ import com.ermile.data.pageinfo.common.size.DefaultPageSizeCalculator
 import com.ermile.data.source.DisplaySize
 import com.ermile.data.source.PageProvider
 import com.ermile.data.source.PageSizeCalculator
-import com.ermile.salamquran.android.pages.madani.R
+import com.ermile.maalquran.android.pages.madani.R
 
 class MadaniPageProvider : PageProvider {
-  private val baseUrl = "https://dl.salamquran.com/app"
+  private val baseUrl = "https://dl.maalquran.com/app"
   private val dataSource = MadaniDataSource()
 
   override fun getDataSource() = dataSource

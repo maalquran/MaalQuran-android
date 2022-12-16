@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.ui.preference;
+package com.ermile.maalquran.android.ui.preference;
 
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 
 import android.annotation.TargetApi;
 import android.content.Context;

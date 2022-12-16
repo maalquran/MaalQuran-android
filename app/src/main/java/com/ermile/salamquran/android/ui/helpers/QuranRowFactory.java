@@ -1,12 +1,12 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
 import android.content.Context;
 import androidx.core.content.ContextCompat;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.dao.Tag;
-import com.ermile.salamquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.dao.Tag;
+import com.ermile.maalquran.android.data.QuranInfo;
 
 import javax.inject.Inject;
 

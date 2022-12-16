@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.util;
+package com.ermile.maalquran.android.util;
 
 import com.ermile.data.source.PageProvider;
 import com.ermile.data.pageinfo.common.MadaniDataSource;
 
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.data.SuraAyah;
 
 import org.junit.Test;
 

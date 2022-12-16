@@ -1,12 +1,12 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
 import android.content.Context;
 
 //import com.crashlytics.android.Crashlytics;
-import com.ermile.salamquran.android.common.Response;
-import com.ermile.salamquran.android.di.ActivityScope;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.util.QuranScreenInfo;
+import com.ermile.maalquran.android.common.Response;
+import com.ermile.maalquran.android.di.ActivityScope;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.util.QuranScreenInfo;
 
 import javax.inject.Inject;
 

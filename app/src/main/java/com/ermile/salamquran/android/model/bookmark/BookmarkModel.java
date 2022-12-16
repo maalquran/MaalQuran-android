@@ -1,12 +1,12 @@
-package com.ermile.salamquran.android.model.bookmark;
+package com.ermile.maalquran.android.model.bookmark;
 
 import androidx.core.util.Pair;
 
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.dao.bookmark.BookmarkData;
-import com.ermile.salamquran.android.dao.Tag;
-import com.ermile.salamquran.android.database.BookmarksDBAdapter;
-import com.ermile.salamquran.android.ui.helpers.QuranRow;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkData;
+import com.ermile.maalquran.android.dao.Tag;
+import com.ermile.maalquran.android.database.BookmarksDBAdapter;
+import com.ermile.maalquran.android.ui.helpers.QuranRow;
 
 import java.util.ArrayList;
 import java.util.List;

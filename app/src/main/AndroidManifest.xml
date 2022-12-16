@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ermile.salamquran.android"
+    package="com.ermile.maalquran.android"
     android:installLocation="auto">
 
   <uses-sdk tools:overrideLibrary="timber.log" />
@@ -11,7 +11,7 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- foreground services need this when targeting Android 9+ (Api 28+) -->
   <uses-permission-sdk-23 android:name="android.permission.FOREGROUND_SERVICE" /> <!-- support chromebooks without touch screen -->
-  <!-- salamquran -->
+  <!-- maalquran -->
   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
   <uses-feature
@@ -29,26 +29,26 @@
       android:supportsRtl="true"
       android:theme="@style/Quran"
       tools:ignore="UnusedAttribute">
-    <activity android:name=".salamquran.Language.LanguageActivity"/>
-    <activity android:name=".salamquran.Intro.IntroActivity" />
+    <activity android:name=".maalquran.Language.LanguageActivity"/>
+    <activity android:name=".maalquran.Intro.IntroActivity" />
     <activity
-        android:name=".salamquran.Utility.ImageViewerActivity"
+        android:name=".maalquran.Utility.ImageViewerActivity"
         android:theme="@style/QuranToolBar" />
     <activity
-        android:name=".salamquran.Mag.MagActivity"
+        android:name=".maalquran.Mag.MagActivity"
         android:theme="@style/QuranToolBar" />
     <activity
-        android:name=".salamquran.Utility.VideoShowActivity"
+        android:name=".maalquran.Utility.VideoShowActivity"
         android:screenOrientation="landscape"
         android:theme="@style/QuranToolBarFullScreen" />
     <activity
-        android:name=".salamquran.Learn.LearnActivity_level_info"
+        android:name=".maalquran.Learn.LearnActivity_level_info"
         android:theme="@style/QuranToolBar" />
     <activity
-        android:name=".salamquran.Learn.LearnActivity_level_list"
+        android:name=".maalquran.Learn.LearnActivity_level_list"
         android:theme="@style/QuranToolBar" />
     <activity
-        android:name=".salamquran.Splash"
+        android:name=".maalquran.Splash"
         android:configChanges="keyboardHidden|orientation|screenSize"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
       <intent-filter>
@@ -189,7 +189,7 @@
     </service>
 
     <service
-        android:name=".salamquran.Notification.NotificationSearvic"
+        android:name=".maalquran.Notification.NotificationSearvic"
         tools:ignore="ExportedService,InnerclassSeparator">
       <intent-filter>
         <action android:name="com.jibres.android.NotificationService" />
@@ -198,7 +198,7 @@
       </intent-filter>
     </service>
 
-    <receiver android:name=".salamquran.CheckNetworkBroadCast">
+    <receiver android:name=".maalquran.CheckNetworkBroadCast">
       <intent-filter>
         <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
         <action android:name="android.intent.action.BOOT_COMPLETED" />

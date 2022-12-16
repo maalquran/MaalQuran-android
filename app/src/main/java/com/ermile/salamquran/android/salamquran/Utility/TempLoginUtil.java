@@ -1,8 +1,8 @@
-package com.ermile.salamquran.android.salamquran.Utility;
+package com.ermile.maalquran.android.maalquran.Utility;
 
 import android.content.Context;
 
-import com.ermile.salamquran.android.salamquran.api.Api;
+import com.ermile.maalquran.android.maalquran.api.Api;
 
 public class TempLoginUtil {
   private Context context;

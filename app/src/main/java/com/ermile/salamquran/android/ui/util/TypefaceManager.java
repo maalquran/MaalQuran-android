@@ -1,9 +1,9 @@
-package com.ermile.salamquran.android.ui.util;
+package com.ermile.maalquran.android.ui.util;
 
 import android.content.Context;
 import android.graphics.Typeface;
 
-import com.ermile.salamquran.android.data.QuranFileConstants;
+import com.ermile.maalquran.android.data.QuranFileConstants;
 
 import androidx.annotation.NonNull;
 

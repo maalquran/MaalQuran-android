@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Mag;
+package com.ermile.maalquran.android.maalquran.Mag;
 
 public class MagModel {
   static class list_short {

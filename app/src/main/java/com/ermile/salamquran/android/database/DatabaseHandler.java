@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.database;
+package com.ermile.maalquran.android.database;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -13,12 +13,12 @@ import android.util.SparseArray;
 import com.ermile.common.search.ArabicSearcher;
 import com.ermile.common.search.DefaultSearcher;
 import com.ermile.common.search.Searcher;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.common.QuranText;
-import com.ermile.salamquran.android.data.QuranFileConstants;
-import com.ermile.salamquran.android.data.VerseRange;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.util.TranslationUtil;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.common.QuranText;
+import com.ermile.maalquran.android.data.QuranFileConstants;
+import com.ermile.maalquran.android.data.VerseRange;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.util.TranslationUtil;
 
 import java.io.File;
 import java.lang.annotation.Retention;

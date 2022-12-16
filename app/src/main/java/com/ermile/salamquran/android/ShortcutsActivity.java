@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android;
+package com.ermile.maalquran.android;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -8,10 +8,10 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.ermile.salamquran.android.ui.QuranActivity;
+import com.ermile.maalquran.android.ui.QuranActivity;
 
 public class ShortcutsActivity extends AppCompatActivity {
-  public static final String ACTION_JUMP_TO_LATEST = "com.ermile.salamquran.android.last_page";
+  public static final String ACTION_JUMP_TO_LATEST = "com.ermile.maalquran.android.last_page";
 
   private static final String JUMP_TO_LATEST_SHORTCUT_NAME = "lastPage";
 

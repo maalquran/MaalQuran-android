@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Mag;
+package com.ermile.maalquran.android.maalquran.Mag;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -10,9 +10,9 @@ import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Adapter;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Adapter;
 import com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager;
 
 import org.json.JSONArray;

@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

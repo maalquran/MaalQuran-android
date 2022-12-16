@@ -6,7 +6,7 @@
         <item name="spinnerStyle">?attr/actionDropDownStyle</item>
         <item name="spinnerDropDownItemStyle">@style/SherlockDropDownItem</item>
         <item name="spinnerItemStyle">@style/SherlockSpinnerItem</item>
-      <!--salamquran-->
+      <!--maalquran-->
       <item name="android:fontFamily" tools:ignore="NewApi">@font/dana_regular</item>
       <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
       <item name="actionModeStyle">@style/ActionModeStyle</item>
@@ -21,7 +21,7 @@
         <item name="spinnerStyle">?attr/actionDropDownStyle</item>
         <item name="spinnerDropDownItemStyle">@style/SherlockDropDownItem</item>
         <item name="spinnerItemStyle">@style/SherlockSpinnerItem</item>
-      <!--salamquran-->
+      <!--maalquran-->
       <item name="android:fontFamily" tools:ignore="NewApi">@font/dana_regular</item>
       <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
       <item name="actionModeStyle">@style/ActionModeStyle</item>
@@ -41,7 +41,7 @@
     <item name="spinnerStyle">?attr/actionDropDownStyle</item>
     <item name="spinnerDropDownItemStyle">@style/SherlockDropDownItem</item>
     <item name="spinnerItemStyle">@style/SherlockSpinnerItem</item>
-    <!--salamquran-->
+    <!--maalquran-->
     <item name="android:fontFamily" tools:ignore="NewApi">@font/dana_regular</item>
     <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
     <item name="actionModeStyle">@style/ActionModeStyle</item>
@@ -51,13 +51,13 @@
 
     <style name="QuranToolBar.Overlay">
         <item name="windowActionBarOverlay">true</item>
-      <!--salamquran-->
+      <!--maalquran-->
       <item name="android:fontFamily" tools:ignore="NewApi">@font/dana_regular</item>
       <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
       <!---->
     </style>
 
-  <!--salamquran-->
+  <!--maalquran-->
   <style name="MyOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
     <item name="android:tint">@color/menuIcon</item>
   </style>

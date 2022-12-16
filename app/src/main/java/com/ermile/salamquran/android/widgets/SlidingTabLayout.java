@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 /*
  * Copyright (C) 2013 The Android Open Source Project
@@ -35,7 +35,7 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 
 import java.util.Locale;
 

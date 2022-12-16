@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.common;
+package com.ermile.maalquran.android.common;
 
 import java.util.Collections;
 import java.util.List;

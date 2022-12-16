@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.content.Context;
 import android.util.AttributeSet;

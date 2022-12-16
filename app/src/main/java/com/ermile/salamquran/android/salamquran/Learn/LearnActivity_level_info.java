@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Learn;
+package com.ermile.maalquran.android.maalquran.Learn;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,10 +11,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Utility.VideoShowActivity;
-import com.ermile.salamquran.android.salamquran.api.LearnApi;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Utility.VideoShowActivity;
+import com.ermile.maalquran.android.maalquran.api.LearnApi;
 
 import org.json.JSONException;
 import org.json.JSONObject;

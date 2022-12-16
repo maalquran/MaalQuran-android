@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
 /*
  * Copyright (C) 2011 The Android Open Source Project

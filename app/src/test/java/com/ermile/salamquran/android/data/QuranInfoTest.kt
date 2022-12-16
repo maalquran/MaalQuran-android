@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.data
+package com.ermile.maalquran.android.data
 
 import com.google.common.truth.Truth.assertThat
 import com.ermile.data.page.provider.madani.MadaniPageProvider

@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -21,11 +21,11 @@ import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.ui.helpers.QuranDisplayHelper;
-import com.ermile.salamquran.android.ui.util.PageController;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.ui.helpers.QuranDisplayHelper;
+import com.ermile.maalquran.android.ui.util.PageController;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 public abstract class QuranPageLayout extends QuranPageWrapperLayout
     implements ObservableScrollView.OnScrollListener {

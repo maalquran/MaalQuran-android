@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.module.application;
+package com.ermile.maalquran.android.module.application;
 
 import android.app.Application;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.view.WindowManager;
 import com.ermile.data.source.DisplaySize;
 import com.ermile.data.source.PageProvider;
 import com.ermile.data.source.PageSizeCalculator;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import java.io.File;
 

@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.common
+package com.ermile.maalquran.android.common
 
-import com.ermile.salamquran.android.ui.helpers.HighlightType
+import com.ermile.maalquran.android.ui.helpers.HighlightType
 
 class HighlightInfo(
   val sura: Int,

@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.checkVersion;
+package com.ermile.maalquran.android.maalquran.checkVersion;
 
 import android.content.Context;
 import android.util.Log;
@@ -6,9 +6,9 @@ import android.util.Log;
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.toolbox.StringRequest;
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.salamquran.Utility.SaveManager;
-import com.ermile.salamquran.android.salamquran.Utility.Url;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.maalquran.Utility.SaveManager;
+import com.ermile.maalquran.android.maalquran.Utility.Url;
 import org.json.JSONObject;
 
 public class UpdateVersionApi {

@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.data;
+package com.ermile.maalquran.android.data;
 
 public class SuraAyahIterator {
 

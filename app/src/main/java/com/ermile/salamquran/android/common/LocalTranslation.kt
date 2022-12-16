@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.common
+package com.ermile.maalquran.android.common
 
 data class LocalTranslation(
   val id: Int = -1,

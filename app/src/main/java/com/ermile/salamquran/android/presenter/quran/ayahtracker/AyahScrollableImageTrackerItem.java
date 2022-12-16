@@ -1,14 +1,14 @@
-package com.ermile.salamquran.android.presenter.quran.ayahtracker;
+package com.ermile.maalquran.android.presenter.quran.ayahtracker;
 
 import android.graphics.Matrix;
 import android.graphics.RectF;
 
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.ui.helpers.HighlightType;
-import com.ermile.salamquran.android.ui.util.ImageAyahUtils;
-import com.ermile.salamquran.android.widgets.AyahToolBar;
-import com.ermile.salamquran.android.widgets.HighlightingImageView;
-import com.ermile.salamquran.android.widgets.QuranPageLayout;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.ui.helpers.HighlightType;
+import com.ermile.maalquran.android.ui.util.ImageAyahUtils;
+import com.ermile.maalquran.android.widgets.AyahToolBar;
+import com.ermile.maalquran.android.widgets.HighlightingImageView;
+import com.ermile.maalquran.android.widgets.QuranPageLayout;
 import com.ermile.page.common.draw.ImageDrawHelper;
 
 import java.util.Set;

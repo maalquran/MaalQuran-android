@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.service;
+package com.ermile.maalquran.android.service;
 
 import android.app.Service;
 import android.content.Context;
@@ -17,16 +17,16 @@ import android.util.Log;
 //import com.crashlytics.android.Crashlytics; //1L
 //import com.crashlytics.android.answers.Answers; //1L
 //import com.crashlytics.android.answers.CustomEvent; //1L
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.data.SuraAyah;
-import com.ermile.salamquran.android.extension.CloseableExtensionKt;
-import com.ermile.salamquran.android.service.util.QuranDownloadNotifier;
-import com.ermile.salamquran.android.service.util.QuranDownloadNotifier.NotificationDetails;
-import com.ermile.salamquran.android.service.util.QuranDownloadNotifier.ProgressIntent;
-import com.ermile.salamquran.android.util.QuranSettings;
-import com.ermile.salamquran.android.util.QuranUtils;
-import com.ermile.salamquran.android.util.ZipUtils;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.extension.CloseableExtensionKt;
+import com.ermile.maalquran.android.service.util.QuranDownloadNotifier;
+import com.ermile.maalquran.android.service.util.QuranDownloadNotifier.NotificationDetails;
+import com.ermile.maalquran.android.service.util.QuranDownloadNotifier.ProgressIntent;
+import com.ermile.maalquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.util.ZipUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -56,11 +56,11 @@ public class QuranDownloadService extends Service implements
 
   // intent actions
   public static final String ACTION_DOWNLOAD_URL =
-      "com.ermile.salamquran.android.DOWNLOAD_URL";
+      "com.ermile.maalquran.android.DOWNLOAD_URL";
   public static final String ACTION_CANCEL_DOWNLOADS =
-      "com.ermile.salamquran.android.CANCEL_DOWNLOADS";
+      "com.ermile.maalquran.android.CANCEL_DOWNLOADS";
   public static final String ACTION_RECONNECT =
-      "com.ermile.salamquran.android.RECONNECT";
+      "com.ermile.maalquran.android.RECONNECT";
 
   // extras
   public static final String EXTRA_URL = "Url";
@@ -472,7 +472,7 @@ public class QuranDownloadService extends Service implements
       String url = urlString;
       if (i > 0) {
         // let's try http instead of https?
-        if (urlString.contains("salamquran.com") || urlString.contains("dl.salamquran.com")) {
+        if (urlString.contains("maalquran.com") || urlString.contains("dl.maalquran.com")) {
           url = urlString.replace("https://", "http://");
         }
 

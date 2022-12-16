@@ -1,21 +1,21 @@
-package com.ermile.salamquran.android.presenter.translation;
+package com.ermile.maalquran.android.presenter.translation;
 
 import android.content.Context;
 import android.util.Pair;
 import android.util.SparseArray;
 
 //import com.crashlytics.android.Crashlytics; //1L
-import com.ermile.salamquran.android.common.LocalTranslation;
-import com.ermile.salamquran.android.dao.translation.Translation;
-import com.ermile.salamquran.android.dao.translation.TranslationItem;
-import com.ermile.salamquran.android.dao.translation.TranslationList;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.database.DatabaseHandler;
-import com.ermile.salamquran.android.database.TranslationsDBAdapter;
-import com.ermile.salamquran.android.presenter.Presenter;
-import com.ermile.salamquran.android.ui.TranslationManagerActivity;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.common.LocalTranslation;
+import com.ermile.maalquran.android.dao.translation.Translation;
+import com.ermile.maalquran.android.dao.translation.TranslationItem;
+import com.ermile.maalquran.android.dao.translation.TranslationList;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.database.DatabaseHandler;
+import com.ermile.maalquran.android.database.TranslationsDBAdapter;
+import com.ermile.maalquran.android.presenter.Presenter;
+import com.ermile.maalquran.android.ui.TranslationManagerActivity;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.util.QuranSettings;
 import com.squareup.moshi.JsonAdapter;
 import com.squareup.moshi.Moshi;
 
@@ -63,7 +63,7 @@ public class TranslationManagerPresenter implements Presenter<TranslationManager
                               TranslationsDBAdapter dbAdapter,
                               QuranFileUtils quranFileUtils) {
 //    this.host = Constants.HOST;
-    this.host = "https://raw.githubusercontent.com/salamquran/SalamQuran-android/master/";
+    this.host = "https://raw.githubusercontent.com/maalquran/MaalQuran-android/master/";
     this.appContext = appContext;
     this.okHttpClient = okHttpClient;
     this.quranSettings = quranSettings;

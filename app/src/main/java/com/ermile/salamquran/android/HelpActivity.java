@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android;
+package com.ermile.maalquran.android;
 
 import android.os.Bundle;
 import androidx.appcompat.app.ActionBar;
@@ -6,7 +6,7 @@ import android.text.Html;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.ermile.salamquran.android.ui.QuranActionBarActivity;
+import com.ermile.maalquran.android.ui.QuranActionBarActivity;
 
 public class HelpActivity extends QuranActionBarActivity {
   @Override

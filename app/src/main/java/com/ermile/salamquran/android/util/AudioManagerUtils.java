@@ -1,11 +1,11 @@
-package com.ermile.salamquran.android.util;
+package com.ermile.maalquran.android.util;
 
 
 import androidx.annotation.NonNull;
 import android.util.Pair;
 
-import com.ermile.salamquran.android.common.QariItem;
-import com.ermile.salamquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.common.QariItem;
+import com.ermile.maalquran.android.data.QuranInfo;
 
 import java.io.File;
 import java.util.List;

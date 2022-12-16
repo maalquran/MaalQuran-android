@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.data;
+package com.ermile.maalquran.android.data;
 
 import com.ermile.data.source.PageProvider;
 

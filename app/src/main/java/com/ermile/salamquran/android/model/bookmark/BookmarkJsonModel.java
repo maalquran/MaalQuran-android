@@ -1,8 +1,8 @@
-package com.ermile.salamquran.android.model.bookmark;
+package com.ermile.maalquran.android.model.bookmark;
 
 import androidx.annotation.NonNull;
 
-import com.ermile.salamquran.android.dao.bookmark.BookmarkData;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkData;
 import com.squareup.moshi.JsonAdapter;
 import com.squareup.moshi.Moshi;
 

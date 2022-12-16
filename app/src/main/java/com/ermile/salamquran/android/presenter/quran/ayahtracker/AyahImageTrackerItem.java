@@ -1,17 +1,17 @@
-package com.ermile.salamquran.android.presenter.quran.ayahtracker;
+package com.ermile.maalquran.android.presenter.quran.ayahtracker;
 
 import android.content.Context;
 import android.graphics.RectF;
 
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.data.SuraAyah;
-import com.ermile.salamquran.android.ui.helpers.HighlightType;
-import com.ermile.salamquran.android.ui.helpers.QuranDisplayHelper;
-import com.ermile.salamquran.android.ui.util.ImageAyahUtils;
-import com.ermile.salamquran.android.util.QuranUtils;
-import com.ermile.salamquran.android.widgets.AyahToolBar;
-import com.ermile.salamquran.android.widgets.HighlightingImageView;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.ui.helpers.HighlightType;
+import com.ermile.maalquran.android.ui.helpers.QuranDisplayHelper;
+import com.ermile.maalquran.android.ui.util.ImageAyahUtils;
+import com.ermile.maalquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.widgets.AyahToolBar;
+import com.ermile.maalquran.android.widgets.HighlightingImageView;
 import com.ermile.page.common.data.AyahBounds;
 import com.ermile.page.common.data.AyahCoordinates;
 import com.ermile.page.common.data.PageCoordinates;

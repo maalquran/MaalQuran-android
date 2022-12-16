@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android;
+package com.ermile.maalquran.android;
 
 import android.app.Application;
 import android.content.Context;
@@ -12,11 +12,11 @@ import android.text.TextUtils;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-import com.ermile.salamquran.android.component.application.ApplicationComponent;
-import com.ermile.salamquran.android.component.application.DaggerApplicationComponent;
-import com.ermile.salamquran.android.module.application.ApplicationModule;
-import com.ermile.salamquran.android.salamquran.Utility.UserInfo;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.component.application.ApplicationComponent;
+import com.ermile.maalquran.android.component.application.DaggerApplicationComponent;
+import com.ermile.maalquran.android.module.application.ApplicationModule;
+import com.ermile.maalquran.android.maalquran.Utility.UserInfo;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import java.util.Locale;
 
@@ -27,7 +27,7 @@ import androidx.annotation.NonNull;
 public class QuranApplication extends Application {
   private ApplicationComponent applicationComponent;
 
-  //  salamquran
+  //  maalquran
   public static final String TAG = QuranApplication.class.getSimpleName();
   private RequestQueue mRequestQueue;
   private static QuranApplication mInstance;
@@ -38,7 +38,7 @@ public class QuranApplication extends Application {
   public void onCreate() {
     super.onCreate();
 
-//  salamquran
+//  maalquran
     mInstance = this;
 //------------------
 
@@ -95,7 +95,7 @@ public class QuranApplication extends Application {
 
 
 
-  //  salamquran
+  //  maalquran
   public static synchronized QuranApplication getInstance() {
     return mInstance;
   }

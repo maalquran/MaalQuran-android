@@ -1,7 +1,7 @@
-package com.ermile.salamquran.android.dao.bookmark
+package com.ermile.maalquran.android.dao.bookmark
 
-import com.ermile.salamquran.android.dao.RecentPage
-import com.ermile.salamquran.android.dao.Tag
+import com.ermile.maalquran.android.dao.RecentPage
+import com.ermile.maalquran.android.dao.Tag
 
 data class BookmarkData(val tags: List<Tag> = emptyList(),
                         val bookmarks: List<Bookmark> = emptyList(),

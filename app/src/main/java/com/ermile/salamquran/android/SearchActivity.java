@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android;
+package com.ermile.maalquran.android;
 
 import android.app.SearchManager;
 import android.content.Context;
@@ -17,17 +17,17 @@ import android.widget.CursorAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.ermile.salamquran.android.data.QuranDataProvider;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.service.QuranDownloadService;
-import com.ermile.salamquran.android.service.util.DefaultDownloadReceiver;
-import com.ermile.salamquran.android.service.util.QuranDownloadNotifier;
-import com.ermile.salamquran.android.service.util.ServiceIntentHelper;
-import com.ermile.salamquran.android.ui.PagerActivity;
-import com.ermile.salamquran.android.ui.QuranActionBarActivity;
-import com.ermile.salamquran.android.ui.TranslationManagerActivity;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.data.QuranDataProvider;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.service.QuranDownloadService;
+import com.ermile.maalquran.android.service.util.DefaultDownloadReceiver;
+import com.ermile.maalquran.android.service.util.QuranDownloadNotifier;
+import com.ermile.maalquran.android.service.util.ServiceIntentHelper;
+import com.ermile.maalquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.ui.QuranActionBarActivity;
+import com.ermile.maalquran.android.ui.TranslationManagerActivity;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.util.QuranUtils;
 
 import javax.inject.Inject;
 

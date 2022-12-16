@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.model.bookmark;
+package com.ermile.maalquran.android.model.bookmark;
 
 import androidx.annotation.UiThread;
 
-import com.ermile.salamquran.android.dao.RecentPage;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.database.BookmarksDBAdapter;
+import com.ermile.maalquran.android.dao.RecentPage;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.database.BookmarksDBAdapter;
 
 import java.util.List;
 

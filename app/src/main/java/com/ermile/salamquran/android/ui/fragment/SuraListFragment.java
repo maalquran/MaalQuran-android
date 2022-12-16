@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.fragment;
+package com.ermile.maalquran.android.ui.fragment;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,15 +12,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.ui.QuranActivity;
-import com.ermile.salamquran.android.ui.helpers.QuranListAdapter;
-import com.ermile.salamquran.android.ui.helpers.QuranRow;
-import com.ermile.salamquran.android.util.QuranSettings;
-import com.ermile.salamquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.ui.QuranActivity;
+import com.ermile.maalquran.android.ui.helpers.QuranListAdapter;
+import com.ermile.maalquran.android.ui.helpers.QuranRow;
+import com.ermile.maalquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.util.QuranUtils;
 
 import javax.inject.Inject;
 
@@ -28,8 +28,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.observers.DisposableSingleObserver;
 
-import static com.ermile.salamquran.android.data.Constants.JUZ2_COUNT;
-import static com.ermile.salamquran.android.data.Constants.SURAS_COUNT;
+import static com.ermile.maalquran.android.data.Constants.JUZ2_COUNT;
+import static com.ermile.maalquran.android.data.Constants.SURAS_COUNT;
 
 public class SuraListFragment extends Fragment {
 

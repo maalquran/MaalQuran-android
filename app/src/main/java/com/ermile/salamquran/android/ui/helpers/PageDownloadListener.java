@@ -1,8 +1,8 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
 import android.graphics.drawable.BitmapDrawable;
 
-import com.ermile.salamquran.android.common.Response;
+import com.ermile.maalquran.android.common.Response;
 
 public interface PageDownloadListener {
   void onLoadImageResponse(BitmapDrawable drawable, Response response);

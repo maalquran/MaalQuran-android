@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.component.activity;
+package com.ermile.maalquran.android.component.activity;
 
-import com.ermile.salamquran.android.component.fragment.QuranPageComponent;
-import com.ermile.salamquran.android.di.ActivityScope;
-import com.ermile.salamquran.android.module.activity.PagerActivityModule;
-import com.ermile.salamquran.android.ui.PagerActivity;
-import com.ermile.salamquran.android.ui.fragment.AyahTranslationFragment;
+import com.ermile.maalquran.android.component.fragment.QuranPageComponent;
+import com.ermile.maalquran.android.di.ActivityScope;
+import com.ermile.maalquran.android.module.activity.PagerActivityModule;
+import com.ermile.maalquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.ui.fragment.AyahTranslationFragment;
 
 import dagger.Subcomponent;
 

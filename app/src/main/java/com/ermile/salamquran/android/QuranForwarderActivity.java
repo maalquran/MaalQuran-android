@@ -1,11 +1,11 @@
-package com.ermile.salamquran.android;
+package com.ermile.maalquran.android;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.ui.PagerActivity;
 
 import javax.inject.Inject;
 

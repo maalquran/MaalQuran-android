@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.database;
+package com.ermile.maalquran.android.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,15 +7,15 @@ import android.database.sqlite.SQLiteDatabase;
 import androidx.annotation.NonNull;
 import androidx.core.util.Pair;
 
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.dao.bookmark.BookmarkData;
-import com.ermile.salamquran.android.dao.RecentPage;
-import com.ermile.salamquran.android.dao.Tag;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.database.BookmarksDBHelper.BookmarkTagTable;
-import com.ermile.salamquran.android.database.BookmarksDBHelper.BookmarksTable;
-import com.ermile.salamquran.android.database.BookmarksDBHelper.LastPagesTable;
-import com.ermile.salamquran.android.database.BookmarksDBHelper.TagsTable;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkData;
+import com.ermile.maalquran.android.dao.RecentPage;
+import com.ermile.maalquran.android.dao.Tag;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.database.BookmarksDBHelper.BookmarkTagTable;
+import com.ermile.maalquran.android.database.BookmarksDBHelper.BookmarksTable;
+import com.ermile.maalquran.android.database.BookmarksDBHelper.LastPagesTable;
+import com.ermile.maalquran.android.database.BookmarksDBHelper.TagsTable;
 
 import java.util.ArrayList;
 import java.util.List;

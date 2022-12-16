@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
 /**
  * Activity or fragment implements this is meant to be a jump destination/target.

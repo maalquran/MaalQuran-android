@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Notification;
+package com.ermile.maalquran.android.maalquran.Notification;
 
 
 public class Attribuites {

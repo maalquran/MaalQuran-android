@@ -1,12 +1,12 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.content.Context;
 import androidx.annotation.IntDef;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import com.ermile.salamquran.android.ui.util.PageController;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.ui.util.PageController;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

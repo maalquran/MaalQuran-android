@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.presenter.audio.service
+package com.ermile.maalquran.android.presenter.audio.service
 
-import com.ermile.salamquran.android.dao.audio.AudioPlaybackInfo
-import com.ermile.salamquran.android.dao.audio.AudioRequest
-import com.ermile.salamquran.android.data.QuranInfo
-import com.ermile.salamquran.android.data.SuraAyah
-import com.ermile.salamquran.android.extension.requiresBasmallah
+import com.ermile.maalquran.android.dao.audio.AudioPlaybackInfo
+import com.ermile.maalquran.android.dao.audio.AudioRequest
+import com.ermile.maalquran.android.data.QuranInfo
+import com.ermile.maalquran.android.data.SuraAyah
+import com.ermile.maalquran.android.extension.requiresBasmallah
 import java.util.Locale
 
 /**

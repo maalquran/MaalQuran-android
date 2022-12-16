@@ -1,17 +1,17 @@
-package com.ermile.salamquran.android.presenter.quran;
+package com.ermile.maalquran.android.presenter.quran;
 
 
 import android.graphics.Bitmap;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.common.Response;
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.di.QuranPageScope;
-import com.ermile.salamquran.android.model.bookmark.BookmarkModel;
-import com.ermile.salamquran.android.model.quran.CoordinatesModel;
-import com.ermile.salamquran.android.presenter.Presenter;
-import com.ermile.salamquran.android.ui.helpers.QuranPageWorker;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.common.Response;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.di.QuranPageScope;
+import com.ermile.maalquran.android.model.bookmark.BookmarkModel;
+import com.ermile.maalquran.android.model.quran.CoordinatesModel;
+import com.ermile.maalquran.android.presenter.Presenter;
+import com.ermile.maalquran.android.ui.helpers.QuranPageWorker;
+import com.ermile.maalquran.android.util.QuranSettings;
 import com.ermile.page.common.data.AyahCoordinates;
 import com.ermile.page.common.data.PageCoordinates;
 

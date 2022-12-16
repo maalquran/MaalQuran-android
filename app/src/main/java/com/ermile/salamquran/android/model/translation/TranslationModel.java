@@ -1,13 +1,13 @@
-package com.ermile.salamquran.android.model.translation;
+package com.ermile.maalquran.android.model.translation;
 
 import android.content.Context;
 
-import com.ermile.salamquran.android.common.QuranText;
-import com.ermile.salamquran.android.data.QuranDataProvider;
-import com.ermile.salamquran.android.data.VerseRange;
-import com.ermile.salamquran.android.database.DatabaseHandler;
-import com.ermile.salamquran.android.di.ActivityScope;
-import com.ermile.salamquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.common.QuranText;
+import com.ermile.maalquran.android.data.QuranDataProvider;
+import com.ermile.maalquran.android.data.VerseRange;
+import com.ermile.maalquran.android.database.DatabaseHandler;
+import com.ermile.maalquran.android.di.ActivityScope;
+import com.ermile.maalquran.android.util.QuranFileUtils;
 
 import java.util.List;
 

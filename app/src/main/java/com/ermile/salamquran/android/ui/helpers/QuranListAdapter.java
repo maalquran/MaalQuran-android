@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -10,13 +10,13 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.dao.Tag;
-import com.ermile.salamquran.android.ui.QuranActivity;
-import com.ermile.salamquran.android.util.QuranUtils;
-import com.ermile.salamquran.android.widgets.JuzView;
-import com.ermile.salamquran.android.widgets.TagsViewGroup;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.dao.Tag;
+import com.ermile.maalquran.android.ui.QuranActivity;
+import com.ermile.maalquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.widgets.JuzView;
+import com.ermile.maalquran.android.widgets.TagsViewGroup;
 
 import java.util.ArrayList;
 import java.util.List;

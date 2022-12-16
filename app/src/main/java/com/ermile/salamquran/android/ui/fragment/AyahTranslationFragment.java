@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.fragment;
+package com.ermile.maalquran.android.ui.fragment;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,17 +9,17 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.common.LocalTranslation;
-import com.ermile.salamquran.android.common.QuranAyahInfo;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.data.VerseRange;
-import com.ermile.salamquran.android.presenter.translation.InlineTranslationPresenter;
-import com.ermile.salamquran.android.ui.PagerActivity;
-import com.ermile.salamquran.android.ui.util.TranslationsSpinnerAdapter;
-import com.ermile.salamquran.android.util.QuranSettings;
-import com.ermile.salamquran.android.widgets.InlineTranslationView;
-import com.ermile.salamquran.android.widgets.QuranSpinner;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.common.LocalTranslation;
+import com.ermile.maalquran.android.common.QuranAyahInfo;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.data.VerseRange;
+import com.ermile.maalquran.android.presenter.translation.InlineTranslationPresenter;
+import com.ermile.maalquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.ui.util.TranslationsSpinnerAdapter;
+import com.ermile.maalquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.widgets.InlineTranslationView;
+import com.ermile.maalquran.android.widgets.QuranSpinner;
 
 import java.util.List;
 import java.util.Set;

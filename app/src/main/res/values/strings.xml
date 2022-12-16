@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <string name="app_name">Salam Quran</string>
+  <string name="app_name">MaalQuran</string>
   <string name="downloadPrompt_title">Download Required Files?</string>
   <string name="downloadPrompt">In order for Quran Android to work properly,
         we need to download some files. If you do not do this now, the app
@@ -52,7 +52,7 @@
   <string name="about_qaloon_images">Qaloon images used with permission of Nous Memes Editions Et Diffusion (Tunisia)</string>
   <string name="about_quranicaudio" translatable="false">Audio Quran</string>
   <string name="about_quranicaudio_summary">Gapless mp3 Quran recitations</string>
-  <string name="about_quranicaudio_url" translatable="false">https://dl.salamquran.com</string>
+  <string name="about_quranicaudio_url" translatable="false">https://dl.maalquran.com</string>
   <string name="about_quran_ksu">Electronic Moshaf Project</string>
   <string name="about_quran_ksu_summary">The King Saud University Electronic Moshaf Project is the app\'s source of Arabic Tafaseer and translations for various languages. It is also the source for Dr. Ayman Suwaid\'s recitation.</string>
   <string name="about_quran_ksu_url" translatable="false">https://quran.ksu.edu.sa</string>
@@ -66,7 +66,7 @@
   <string name="about_noorhidayat_summary">Noorehira font and Mufti Taqi Translation</string>
   <string name="about_noorhidayat_url" translatable="false">http://www.noorehidayat.org</string>
   <string name="about_open_source">Open Source Projects</string>
-  <string name="about_quran_android">Salam Quran</string>
+  <string name="about_quran_android">MaalQuran</string>
   <string name="about_quran_android_url">https://github.com/quran/quran_android</string>
   <string name="about_androidx" translatable="false">AndroidX</string>
   <string name="about_androidx_url" translatable="false">https://developer.android.com/jetpack/androidx</string>

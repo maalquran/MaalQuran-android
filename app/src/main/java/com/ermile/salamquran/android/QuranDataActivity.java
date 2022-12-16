@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android;
+package com.ermile.maalquran.android;
 
 import android.Manifest;
 import android.app.Activity;
@@ -14,18 +14,18 @@ import android.widget.Toast;
 //import com.crashlytics.android.answers.Answers; //1L
 //import com.crashlytics.android.answers.CustomEvent; //1L
 import com.ermile.data.source.PageProvider;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.presenter.data.QuranDataPresenter;
-import com.ermile.salamquran.android.service.QuranDownloadService;
-import com.ermile.salamquran.android.service.util.DefaultDownloadReceiver;
-import com.ermile.salamquran.android.service.util.PermissionUtil;
-import com.ermile.salamquran.android.service.util.QuranDownloadNotifier;
-import com.ermile.salamquran.android.service.util.ServiceIntentHelper;
-import com.ermile.salamquran.android.ui.QuranActivity;
-import com.ermile.salamquran.android.util.CopyDatabaseUtil;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.util.QuranScreenInfo;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.presenter.data.QuranDataPresenter;
+import com.ermile.maalquran.android.service.QuranDownloadService;
+import com.ermile.maalquran.android.service.util.DefaultDownloadReceiver;
+import com.ermile.maalquran.android.service.util.PermissionUtil;
+import com.ermile.maalquran.android.service.util.QuranDownloadNotifier;
+import com.ermile.maalquran.android.service.util.ServiceIntentHelper;
+import com.ermile.maalquran.android.ui.QuranActivity;
+import com.ermile.maalquran.android.util.CopyDatabaseUtil;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.util.QuranScreenInfo;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,19 +1,19 @@
-package com.ermile.salamquran.android.presenter.data
+package com.ermile.maalquran.android.presenter.data
 
 import android.content.Context
 import androidx.annotation.UiThread
 import androidx.annotation.WorkerThread
 //import com.crashlytics.android.Crashlytics //1L
 import com.ermile.data.source.PageProvider
-import com.ermile.salamquran.android.BuildConfig
-import com.ermile.salamquran.android.QuranDataActivity
-import com.ermile.salamquran.android.data.QuranDataProvider
-import com.ermile.salamquran.android.data.QuranInfo
-import com.ermile.salamquran.android.presenter.Presenter
-import com.ermile.salamquran.android.util.CopyDatabaseUtil
-import com.ermile.salamquran.android.util.QuranFileUtils
-import com.ermile.salamquran.android.util.QuranScreenInfo
-import com.ermile.salamquran.android.util.QuranSettings
+import com.ermile.maalquran.android.BuildConfig
+import com.ermile.maalquran.android.QuranDataActivity
+import com.ermile.maalquran.android.data.QuranDataProvider
+import com.ermile.maalquran.android.data.QuranInfo
+import com.ermile.maalquran.android.presenter.Presenter
+import com.ermile.maalquran.android.util.CopyDatabaseUtil
+import com.ermile.maalquran.android.util.QuranFileUtils
+import com.ermile.maalquran.android.util.QuranScreenInfo
+import com.ermile.maalquran.android.util.QuranSettings
 import io.reactivex.Completable
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers

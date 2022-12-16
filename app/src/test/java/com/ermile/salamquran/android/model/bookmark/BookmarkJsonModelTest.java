@@ -1,7 +1,7 @@
-package com.ermile.salamquran.android.model.bookmark;
+package com.ermile.maalquran.android.model.bookmark;
 
-import com.ermile.salamquran.android.dao.bookmark.BookmarkData;
-import com.ermile.salamquran.android.dao.Tag;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkData;
+import com.ermile.maalquran.android.dao.Tag;
 
 import org.junit.Before;
 import org.junit.Test;

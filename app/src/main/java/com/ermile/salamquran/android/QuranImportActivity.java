@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android;
+package com.ermile.maalquran.android;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 //import com.crashlytics.android.answers.Answers;
 //import com.crashlytics.android.answers.CustomEvent;
-import com.ermile.salamquran.android.dao.bookmark.BookmarkData;
-import com.ermile.salamquran.android.presenter.QuranImportPresenter;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkData;
+import com.ermile.maalquran.android.presenter.QuranImportPresenter;
 
 import javax.inject.Inject;
 

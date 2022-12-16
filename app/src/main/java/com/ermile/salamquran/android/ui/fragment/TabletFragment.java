@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.fragment;
+package com.ermile.maalquran.android.ui.fragment;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,31 +11,31 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.ermile.salamquran.android.common.LocalTranslation;
-import com.ermile.salamquran.android.common.QuranAyahInfo;
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.module.fragment.QuranPageModule;
-import com.ermile.salamquran.android.presenter.quran.QuranPagePresenter;
-import com.ermile.salamquran.android.presenter.quran.QuranPageScreen;
-import com.ermile.salamquran.android.presenter.quran.ayahtracker.AyahImageTrackerItem;
-import com.ermile.salamquran.android.presenter.quran.ayahtracker.AyahTrackerItem;
-import com.ermile.salamquran.android.presenter.quran.ayahtracker.AyahTrackerPresenter;
-import com.ermile.salamquran.android.presenter.quran.ayahtracker.AyahTranslationTrackerItem;
-import com.ermile.salamquran.android.presenter.translation.TranslationPresenter;
-import com.ermile.salamquran.android.ui.PagerActivity;
-import com.ermile.salamquran.android.ui.helpers.AyahSelectedListener;
-import com.ermile.salamquran.android.ui.helpers.AyahTracker;
-import com.ermile.salamquran.android.ui.helpers.QuranPage;
-import com.ermile.salamquran.android.ui.translation.OnTranslationActionListener;
-import com.ermile.salamquran.android.ui.translation.TranslationView;
-import com.ermile.salamquran.android.ui.util.PageController;
-import com.ermile.salamquran.android.util.QuranScreenInfo;
-import com.ermile.salamquran.android.util.QuranSettings;
-import com.ermile.salamquran.android.widgets.HighlightingImageView;
-import com.ermile.salamquran.android.widgets.QuranImagePageLayout;
-import com.ermile.salamquran.android.widgets.QuranTranslationPageLayout;
-import com.ermile.salamquran.android.widgets.TabletView;
+import com.ermile.maalquran.android.common.LocalTranslation;
+import com.ermile.maalquran.android.common.QuranAyahInfo;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.module.fragment.QuranPageModule;
+import com.ermile.maalquran.android.presenter.quran.QuranPagePresenter;
+import com.ermile.maalquran.android.presenter.quran.QuranPageScreen;
+import com.ermile.maalquran.android.presenter.quran.ayahtracker.AyahImageTrackerItem;
+import com.ermile.maalquran.android.presenter.quran.ayahtracker.AyahTrackerItem;
+import com.ermile.maalquran.android.presenter.quran.ayahtracker.AyahTrackerPresenter;
+import com.ermile.maalquran.android.presenter.quran.ayahtracker.AyahTranslationTrackerItem;
+import com.ermile.maalquran.android.presenter.translation.TranslationPresenter;
+import com.ermile.maalquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.ui.helpers.AyahSelectedListener;
+import com.ermile.maalquran.android.ui.helpers.AyahTracker;
+import com.ermile.maalquran.android.ui.helpers.QuranPage;
+import com.ermile.maalquran.android.ui.translation.OnTranslationActionListener;
+import com.ermile.maalquran.android.ui.translation.TranslationView;
+import com.ermile.maalquran.android.ui.util.PageController;
+import com.ermile.maalquran.android.util.QuranScreenInfo;
+import com.ermile.maalquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.widgets.HighlightingImageView;
+import com.ermile.maalquran.android.widgets.QuranImagePageLayout;
+import com.ermile.maalquran.android.widgets.QuranTranslationPageLayout;
+import com.ermile.maalquran.android.widgets.TabletView;
 import com.ermile.page.common.data.AyahCoordinates;
 import com.ermile.page.common.data.PageCoordinates;
 import com.ermile.page.common.draw.ImageDrawHelper;
@@ -53,7 +53,7 @@ import dagger.Lazy;
 import io.reactivex.disposables.CompositeDisposable;
 import timber.log.Timber;
 
-import static com.ermile.salamquran.android.ui.helpers.AyahSelectedListener.EventType;
+import static com.ermile.maalquran.android.ui.helpers.AyahSelectedListener.EventType;
 
 public class TabletFragment extends Fragment
     implements PageController, TranslationPresenter.TranslationScreen,

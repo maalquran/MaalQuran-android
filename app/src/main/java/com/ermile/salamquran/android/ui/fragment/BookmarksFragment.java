@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.fragment;
+package com.ermile.maalquran.android.ui.fragment;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,15 +18,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.database.BookmarksDBAdapter;
-import com.ermile.salamquran.android.dao.bookmark.BookmarkResult;
-import com.ermile.salamquran.android.presenter.bookmark.BookmarkPresenter;
-import com.ermile.salamquran.android.presenter.bookmark.BookmarksContextualModePresenter;
-import com.ermile.salamquran.android.ui.QuranActivity;
-import com.ermile.salamquran.android.ui.helpers.QuranListAdapter;
-import com.ermile.salamquran.android.ui.helpers.QuranRow;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.database.BookmarksDBAdapter;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkResult;
+import com.ermile.maalquran.android.presenter.bookmark.BookmarkPresenter;
+import com.ermile.maalquran.android.presenter.bookmark.BookmarksContextualModePresenter;
+import com.ermile.maalquran.android.ui.QuranActivity;
+import com.ermile.maalquran.android.ui.helpers.QuranListAdapter;
+import com.ermile.maalquran.android.ui.helpers.QuranRow;
 
 import java.util.List;
 

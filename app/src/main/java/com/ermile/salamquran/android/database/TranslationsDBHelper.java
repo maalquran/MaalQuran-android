@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.database;
+package com.ermile.maalquran.android.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

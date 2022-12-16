@@ -1,7 +1,7 @@
-package com.ermile.salamquran.android.data;
+package com.ermile.maalquran.android.data;
 
 import com.ermile.data.source.PageProvider;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import java.util.Map;
 

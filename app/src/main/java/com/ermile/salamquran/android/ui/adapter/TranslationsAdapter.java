@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.adapter;
+package com.ermile.maalquran.android.ui.adapter;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.dao.translation.TranslationItem;
-import com.ermile.salamquran.android.dao.translation.TranslationRowData;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.dao.translation.TranslationItem;
+import com.ermile.maalquran.android.dao.translation.TranslationRowData;
 
 import org.jetbrains.annotations.NotNull;
 

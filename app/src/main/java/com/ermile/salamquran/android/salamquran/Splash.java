@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran;
+package com.ermile.maalquran.android.maalquran;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,17 +10,17 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.QuranDataActivity;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Intro.IntroActivity;
-import com.ermile.salamquran.android.salamquran.Intro.IntroApi;
-import com.ermile.salamquran.android.salamquran.Language.LanguageActivity;
-import com.ermile.salamquran.android.salamquran.Utility.SaveManager;
-import com.ermile.salamquran.android.salamquran.Utility.UserInfo;
-import com.ermile.salamquran.android.salamquran.api.UrlApi;
-import com.ermile.salamquran.android.salamquran.checkVersion.DeprecatedVersionApi;
-import com.ermile.salamquran.android.salamquran.checkVersion.UpdateVersionApi;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.QuranDataActivity;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Intro.IntroActivity;
+import com.ermile.maalquran.android.maalquran.Intro.IntroApi;
+import com.ermile.maalquran.android.maalquran.Language.LanguageActivity;
+import com.ermile.maalquran.android.maalquran.Utility.SaveManager;
+import com.ermile.maalquran.android.maalquran.Utility.UserInfo;
+import com.ermile.maalquran.android.maalquran.api.UrlApi;
+import com.ermile.maalquran.android.maalquran.checkVersion.DeprecatedVersionApi;
+import com.ermile.maalquran.android.maalquran.checkVersion.UpdateVersionApi;
 
 import java.util.Locale;
 

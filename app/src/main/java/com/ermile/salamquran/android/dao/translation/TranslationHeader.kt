@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.dao.translation
+package com.ermile.maalquran.android.dao.translation
 
 data class TranslationHeader(val name: String) : TranslationRowData {
 

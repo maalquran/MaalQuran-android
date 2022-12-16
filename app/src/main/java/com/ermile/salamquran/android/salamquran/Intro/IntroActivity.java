@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Intro;
+package com.ermile.maalquran.android.maalquran.Intro;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -7,9 +7,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import com.ermile.salamquran.android.QuranDataActivity;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Utility.Json;
+import com.ermile.maalquran.android.QuranDataActivity;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Utility.Json;
 import com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager;
 import org.json.JSONArray;
 import org.json.JSONException;

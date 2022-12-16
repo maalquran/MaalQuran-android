@@ -30,7 +30,7 @@
         android:tint="@color/actionAya_icon"
         android:contentDescription="@string/cancel"
         />
-    <com.ermile.salamquran.android.widgets.IconPageIndicator
+    <com.ermile.maalquran.android.widgets.IconPageIndicator
         android:id="@+id/sliding_pager_indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
         app:indicatorHeight="@dimen/icon_page_indicator_height"
         />
   </LinearLayout>
-  <com.ermile.salamquran.android.widgets.QuranViewPager
+  <com.ermile.maalquran.android.widgets.QuranViewPager
       android:id="@+id/sliding_layout_pager"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"

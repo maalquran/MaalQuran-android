@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.util;
+package com.ermile.maalquran.android.util;
 
 import android.app.NotificationManager;
 import android.content.Context;
@@ -7,11 +7,11 @@ import android.os.Build;
 import android.os.Environment;
 import android.preference.PreferenceManager;
 
-import com.ermile.salamquran.android.BuildConfig;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.salamquran.Utility.UserInfo;
-import com.ermile.salamquran.android.service.QuranDownloadService;
+import com.ermile.maalquran.android.BuildConfig;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.maalquran.Utility.UserInfo;
+import com.ermile.maalquran.android.service.QuranDownloadService;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -23,7 +23,7 @@ import androidx.annotation.VisibleForTesting;
 
 
 public class QuranSettings {
-  private static final String PREFS_FILE = "com.ermile.salamquran.android.per_installation";
+  private static final String PREFS_FILE = "com.ermile.maalquran.android.per_installation";
 
   private static QuranSettings instance;
 

@@ -73,14 +73,14 @@
 
     </RelativeLayout>
 
-    <com.ermile.salamquran.android.widgets.SlidingTabLayout
+    <com.ermile.maalquran.android.widgets.SlidingTabLayout
         android:id="@+id/indicator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/tabLayout_background"
         style="@style/ToolBarArea"
         />
-    <com.ermile.salamquran.android.widgets.QuranViewPager
+    <com.ermile.maalquran.android.widgets.QuranViewPager
         android:id="@+id/index_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

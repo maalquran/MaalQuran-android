@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-package com.ermile.salamquran.android.service;
+package com.ermile.maalquran.android.service;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -58,21 +58,21 @@ import android.support.v4.media.session.PlaybackStateCompat;
 import android.util.SparseIntArray;
 
 //import com.crashlytics.android.Crashlytics;
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.dao.audio.AudioPlaybackInfo;
-import com.ermile.salamquran.android.dao.audio.AudioRequest;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.data.SuraAyah;
-import com.ermile.salamquran.android.database.DatabaseUtils;
-import com.ermile.salamquran.android.database.SuraTimingDatabaseHandler;
-import com.ermile.salamquran.android.extension.SuraAyahExtensionKt;
-import com.ermile.salamquran.android.presenter.audio.service.AudioQueue;
-import com.ermile.salamquran.android.service.util.AudioFocusHelper;
-import com.ermile.salamquran.android.service.util.AudioFocusable;
-import com.ermile.salamquran.android.service.util.QuranDownloadNotifier;
-import com.ermile.salamquran.android.ui.PagerActivity;
-import com.ermile.salamquran.android.util.AudioUtils;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.dao.audio.AudioPlaybackInfo;
+import com.ermile.maalquran.android.dao.audio.AudioRequest;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.database.DatabaseUtils;
+import com.ermile.maalquran.android.database.SuraTimingDatabaseHandler;
+import com.ermile.maalquran.android.extension.SuraAyahExtensionKt;
+import com.ermile.maalquran.android.presenter.audio.service.AudioQueue;
+import com.ermile.maalquran.android.service.util.AudioFocusHelper;
+import com.ermile.maalquran.android.service.util.AudioFocusable;
+import com.ermile.maalquran.android.service.util.QuranDownloadNotifier;
+import com.ermile.maalquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.util.AudioUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -103,14 +103,14 @@ public class AudioService extends Service implements OnCompletionListener,
   // the fact these constants exist in our class is a mere convenience: what
   // really defines the actions our service can handle are the <action> tags
   // in the <intent-filters> tag for our service in AndroidManifest.xml.
-  public static final String ACTION_PLAYBACK = "com.ermile.salamquran.android.action.PLAYBACK";
-  public static final String ACTION_PLAY = "com.ermile.salamquran.android.action.PLAY";
-  public static final String ACTION_PAUSE = "com.ermile.salamquran.android.action.PAUSE";
-  public static final String ACTION_STOP = "com.ermile.salamquran.android.action.STOP";
-  public static final String ACTION_SKIP = "com.ermile.salamquran.android.action.SKIP";
-  public static final String ACTION_REWIND = "com.ermile.salamquran.android.action.REWIND";
-  public static final String ACTION_CONNECT = "com.ermile.salamquran.android.action.CONNECT";
-  public static final String ACTION_UPDATE_REPEAT = "com.ermile.salamquran.android.action.UPDATE_REPEAT";
+  public static final String ACTION_PLAYBACK = "com.ermile.maalquran.android.action.PLAYBACK";
+  public static final String ACTION_PLAY = "com.ermile.maalquran.android.action.PLAY";
+  public static final String ACTION_PAUSE = "com.ermile.maalquran.android.action.PAUSE";
+  public static final String ACTION_STOP = "com.ermile.maalquran.android.action.STOP";
+  public static final String ACTION_SKIP = "com.ermile.maalquran.android.action.SKIP";
+  public static final String ACTION_REWIND = "com.ermile.maalquran.android.action.REWIND";
+  public static final String ACTION_CONNECT = "com.ermile.maalquran.android.action.CONNECT";
+  public static final String ACTION_UPDATE_REPEAT = "com.ermile.maalquran.android.action.UPDATE_REPEAT";
 
   // pending notification request codes
   private static final int REQUEST_CODE_MAIN = 0;
@@ -122,7 +122,7 @@ public class AudioService extends Service implements OnCompletionListener,
 
   public static class AudioUpdateIntent {
 
-    public static final String INTENT_NAME = "com.ermile.salamquran.android.audio.AudioUpdate";
+    public static final String INTENT_NAME = "com.ermile.maalquran.android.audio.AudioUpdate";
     public static final String STATUS = "status";
     public static final String SURA = "sura";
     public static final String AYAH = "ayah";
@@ -156,7 +156,7 @@ public class AudioService extends Service implements OnCompletionListener,
   private AudioQueue audioQueue = null;
 
   // so user can pass in a serializable LegacyAudioRequest to the intent
-  public static final String EXTRA_PLAY_INFO = "com.ermile.salamquran.android.PLAY_INFO";
+  public static final String EXTRA_PLAY_INFO = "com.ermile.maalquran.android.PLAY_INFO";
 
   // indicates the state our service:
   private enum State {

@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.service.util;
+package com.ermile.maalquran.android.service.util;
 
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import android.Manifest;
 import android.app.Activity;

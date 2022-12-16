@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.fragment
+package com.ermile.maalquran.android.ui.fragment
 
 import android.content.Intent
 import android.content.SharedPreferences
@@ -8,15 +8,15 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceGroup
 import androidx.preference.PreferenceScreen
 import com.ermile.data.source.PageProvider
-import com.ermile.salamquran.android.QuranAdvancedPreferenceActivity
-import com.ermile.salamquran.android.QuranApplication
-import com.ermile.salamquran.android.R
-import com.ermile.salamquran.android.data.Constants
-import com.ermile.salamquran.android.pageselect.PageSelectActivity
-import com.ermile.salamquran.android.salamquran.Language.LanguageActivity
-import com.ermile.salamquran.android.ui.AudioManagerActivity
-import com.ermile.salamquran.android.ui.QuranActivity
-import com.ermile.salamquran.android.ui.TranslationManagerActivity
+import com.ermile.maalquran.android.QuranAdvancedPreferenceActivity
+import com.ermile.maalquran.android.QuranApplication
+import com.ermile.maalquran.android.R
+import com.ermile.maalquran.android.data.Constants
+import com.ermile.maalquran.android.pageselect.PageSelectActivity
+import com.ermile.maalquran.android.maalquran.Language.LanguageActivity
+import com.ermile.maalquran.android.ui.AudioManagerActivity
+import com.ermile.maalquran.android.ui.QuranActivity
+import com.ermile.maalquran.android.ui.TranslationManagerActivity
 import java.util.*
 import javax.inject.Inject
 
@@ -36,7 +36,7 @@ class QuranSettingsFragment : PreferenceFragmentCompat(),
     // field injection
     (appContext as QuranApplication).applicationComponent.inject(this)
 
-    // salamquran
+    // maalquran
     val t2Prefs: PreferenceScreen? = findPreference(Constants.prefs_change_language)
     t2Prefs?.setOnPreferenceClickListener {
       startActivity(Intent(activity, LanguageActivity::class.java))

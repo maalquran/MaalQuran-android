@@ -1,11 +1,11 @@
-package com.ermile.salamquran.android.salamquran.Utility;
+package com.ermile.maalquran.android.maalquran.Utility;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 import com.github.chrisbanes.photoview.PhotoView;
 
 public class ImageViewerActivity extends AppCompatActivity {

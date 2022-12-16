@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.presenter.bookmark;
+package com.ermile.maalquran.android.presenter.bookmark;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.ActionMode;
@@ -6,9 +6,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.presenter.Presenter;
-import com.ermile.salamquran.android.ui.fragment.BookmarksFragment;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.presenter.Presenter;
+import com.ermile.maalquran.android.ui.fragment.BookmarksFragment;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

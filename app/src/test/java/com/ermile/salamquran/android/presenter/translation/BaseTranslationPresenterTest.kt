@@ -1,16 +1,16 @@
-package com.ermile.salamquran.android.presenter.translation
+package com.ermile.maalquran.android.presenter.translation
 
 import com.google.common.truth.Truth.assertThat
 import com.ermile.data.page.provider.madani.MadaniPageProvider
-import com.ermile.salamquran.android.common.LocalTranslation
-import com.ermile.salamquran.android.common.QuranText
-import com.ermile.salamquran.android.common.TranslationMetadata
-import com.ermile.salamquran.android.data.QuranInfo
-import com.ermile.salamquran.android.data.VerseRange
-import com.ermile.salamquran.android.database.TranslationsDBAdapter
-import com.ermile.salamquran.android.model.translation.TranslationModel
-import com.ermile.salamquran.android.presenter.Presenter
-import com.ermile.salamquran.android.util.TranslationUtil
+import com.ermile.maalquran.android.common.LocalTranslation
+import com.ermile.maalquran.android.common.QuranText
+import com.ermile.maalquran.android.common.TranslationMetadata
+import com.ermile.maalquran.android.data.QuranInfo
+import com.ermile.maalquran.android.data.VerseRange
+import com.ermile.maalquran.android.database.TranslationsDBAdapter
+import com.ermile.maalquran.android.model.translation.TranslationModel
+import com.ermile.maalquran.android.presenter.Presenter
+import com.ermile.maalquran.android.util.TranslationUtil
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mockito

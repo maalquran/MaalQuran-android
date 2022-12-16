@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.pageselect
+package com.ermile.maalquran.android.pageselect
 
 //import com.crashlytics.android.Crashlytics //1L
 import com.ermile.data.source.PageProvider
-import com.ermile.salamquran.android.presenter.Presenter
-import com.ermile.salamquran.android.util.ImageUtil
-import com.ermile.salamquran.android.util.QuranFileUtils
+import com.ermile.maalquran.android.presenter.Presenter
+import com.ermile.maalquran.android.util.ImageUtil
+import com.ermile.maalquran.android.util.QuranFileUtils
 import dagger.Reusable
 import io.reactivex.Scheduler
 import io.reactivex.disposables.CompositeDisposable
@@ -20,7 +20,7 @@ class PageSelectPresenter @Inject
                 private val pageTypes:
                 Map<@JvmSuppressWildcards String, @JvmSuppressWildcards PageProvider>) :
     Presenter<PageSelectActivity> {
-  private val baseUrl = "https://dl.salamquran.com/app/pagetypes"
+  private val baseUrl = "https://dl.maalquran.com/app/pagetypes"
   private val compositeDisposable = CompositeDisposable()
   private val downloadingSet = mutableSetOf<String>()
   private var currentView: PageSelectActivity? = null

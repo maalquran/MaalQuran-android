@@ -1,9 +1,9 @@
-package com.ermile.salamquran.android.data;
+package com.ermile.maalquran.android.data;
 
 import android.content.Context;
 
-import com.ermile.salamquran.android.di.ActivityScope;
-import com.ermile.salamquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.di.ActivityScope;
+import com.ermile.maalquran.android.util.QuranFileUtils;
 
 import javax.inject.Inject;
 

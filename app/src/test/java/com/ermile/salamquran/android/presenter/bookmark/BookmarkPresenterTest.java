@@ -1,20 +1,20 @@
-package com.ermile.salamquran.android.presenter.bookmark;
+package com.ermile.maalquran.android.presenter.bookmark;
 
 import android.content.Context;
 import android.content.res.Resources;
 
 import com.ermile.data.page.provider.madani.MadaniPageProvider;
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.dao.bookmark.BookmarkData;
-import com.ermile.salamquran.android.dao.RecentPage;
-import com.ermile.salamquran.android.dao.Tag;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.database.BookmarksDBAdapter;
-import com.ermile.salamquran.android.model.bookmark.BookmarkModel;
-import com.ermile.salamquran.android.dao.bookmark.BookmarkResult;
-import com.ermile.salamquran.android.model.bookmark.RecentPageModel;
-import com.ermile.salamquran.android.ui.helpers.QuranRowFactory;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkData;
+import com.ermile.maalquran.android.dao.RecentPage;
+import com.ermile.maalquran.android.dao.Tag;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.database.BookmarksDBAdapter;
+import com.ermile.maalquran.android.model.bookmark.BookmarkModel;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkResult;
+import com.ermile.maalquran.android.model.bookmark.RecentPageModel;
+import com.ermile.maalquran.android.ui.helpers.QuranRowFactory;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import org.junit.Before;
 import org.junit.BeforeClass;

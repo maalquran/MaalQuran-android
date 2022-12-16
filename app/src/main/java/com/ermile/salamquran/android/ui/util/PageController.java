@@ -1,8 +1,8 @@
-package com.ermile.salamquran.android.ui.util;
+package com.ermile.maalquran.android.ui.util;
 
 import android.view.MotionEvent;
 
-import com.ermile.salamquran.android.ui.helpers.AyahSelectedListener;
+import com.ermile.maalquran.android.ui.helpers.AyahSelectedListener;
 
 public interface PageController {
   boolean handleTouchEvent(MotionEvent event, AyahSelectedListener.EventType eventType, int page);

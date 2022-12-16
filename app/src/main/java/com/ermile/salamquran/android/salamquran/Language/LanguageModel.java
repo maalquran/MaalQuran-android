@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Language;
+package com.ermile.maalquran.android.maalquran.Language;
 
 public class LanguageModel {
   private String title,tag,local_URL;

@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.service.util;
+package com.ermile.maalquran.android.service.util;
 
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
@@ -8,8 +8,8 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.service.QuranDownloadService;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.service.QuranDownloadService;
 
 import java.lang.ref.WeakReference;
 import java.text.DecimalFormat;

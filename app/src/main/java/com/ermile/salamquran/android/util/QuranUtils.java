@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.util;
+package com.ermile.maalquran.android.util;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -10,9 +10,9 @@ import android.net.NetworkInfo;
 import android.os.Build;
 import android.preference.PreferenceManager;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.salamquran.Utility.UserInfo;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.maalquran.Utility.UserInfo;
 
 import java.io.File;
 import java.text.DecimalFormat;

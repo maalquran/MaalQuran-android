@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -14,8 +14,8 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.ermile.salamquran.android.BuildConfig;
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.BuildConfig;
+import com.ermile.maalquran.android.R;
 
 import androidx.annotation.MenuRes;
 import androidx.appcompat.widget.PopupMenu;

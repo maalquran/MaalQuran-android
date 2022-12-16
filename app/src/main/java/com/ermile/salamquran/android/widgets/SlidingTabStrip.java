@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 /*
  * Copyright (C) 2013 The Android Open Source Project

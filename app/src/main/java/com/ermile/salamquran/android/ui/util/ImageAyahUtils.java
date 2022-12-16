@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.util;
+package com.ermile.maalquran.android.ui.util;
 
 import android.graphics.Matrix;
 import android.graphics.RectF;
@@ -7,9 +7,9 @@ import android.util.SparseArray;
 import android.widget.ImageView;
 
 import com.ermile.page.common.data.AyahBounds;
-import com.ermile.salamquran.android.data.SuraAyah;
-import com.ermile.salamquran.android.widgets.AyahToolBar;
-import com.ermile.salamquran.android.widgets.HighlightingImageView;
+import com.ermile.maalquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.widgets.AyahToolBar;
+import com.ermile.maalquran.android.widgets.HighlightingImageView;
 
 import java.util.ArrayList;
 import java.util.List;

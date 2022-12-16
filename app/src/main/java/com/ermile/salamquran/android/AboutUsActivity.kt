@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android
+package com.ermile.maalquran.android
 
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.widget.Toolbar
-import com.ermile.salamquran.android.ui.QuranActionBarActivity
-import com.ermile.salamquran.android.ui.fragment.AboutFragment
+import com.ermile.maalquran.android.ui.QuranActionBarActivity
+import com.ermile.maalquran.android.ui.fragment.AboutFragment
 
 class AboutUsActivity : QuranActionBarActivity() {
 

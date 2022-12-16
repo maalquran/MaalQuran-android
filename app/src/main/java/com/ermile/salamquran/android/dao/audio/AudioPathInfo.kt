@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.dao.audio
+package com.ermile.maalquran.android.dao.audio
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

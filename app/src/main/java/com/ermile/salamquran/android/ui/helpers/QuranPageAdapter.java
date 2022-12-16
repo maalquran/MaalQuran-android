@@ -1,15 +1,15 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import android.view.ViewGroup;
 
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.ui.fragment.QuranPageFragment;
-import com.ermile.salamquran.android.ui.fragment.TabletFragment;
-import com.ermile.salamquran.android.ui.fragment.TranslationFragment;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.ui.fragment.QuranPageFragment;
+import com.ermile.maalquran.android.ui.fragment.TabletFragment;
+import com.ermile.maalquran.android.ui.fragment.TranslationFragment;
 
 import timber.log.Timber;
 

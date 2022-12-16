@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.util;
+package com.ermile.maalquran.android.ui.util;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -11,9 +11,9 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.common.LocalTranslation;
-import com.ermile.salamquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.common.LocalTranslation;
+import com.ermile.maalquran.android.ui.PagerActivity;
 
 import java.util.ArrayList;
 import java.util.List;

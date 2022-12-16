@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.pageselect
+package com.ermile.maalquran.android.pageselect
 
 import androidx.annotation.StringRes
 import java.io.File

@@ -1,12 +1,12 @@
-package com.ermile.salamquran.android.util
+package com.ermile.maalquran.android.util
 
 import android.text.SpannableString
 import android.text.Spanned
 import android.text.style.ForegroundColorSpan
 import androidx.annotation.ColorInt
-import com.ermile.salamquran.android.common.QuranText
-import com.ermile.salamquran.android.common.TranslationMetadata
-import com.ermile.salamquran.android.data.QuranInfo
+import com.ermile.maalquran.android.common.QuranText
+import com.ermile.maalquran.android.common.TranslationMetadata
+import com.ermile.maalquran.android.data.QuranInfo
 import dagger.Reusable
 
 @Reusable

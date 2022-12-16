@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.dao.translation
+package com.ermile.maalquran.android.dao.translation
 
 data class TranslationItem @JvmOverloads constructor(val translation: Translation,
                                                      val localVersion: Int = 0) : TranslationRowData {

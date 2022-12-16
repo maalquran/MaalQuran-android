@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.data;
+package com.ermile.maalquran.android.data;
 
 public class Constants {
 
   // data domain
   public static final String HOST = "https://android.quran.com/";
-//  public static final String HOST = "https://dl.salamquran.com/";
+//  public static final String HOST = "https://dl.maalquran.com/";
 
   // Numerics
   public static final int DEFAULT_NIGHT_MODE_TEXT_BRIGHTNESS = 255;
@@ -28,9 +28,9 @@ public class Constants {
   public static final int MAX_RECENT_PAGES = 3;
 
   // quranapp
-  public static final String QURAN_APP_BASE = "http://salamquran.com/";
-//  public static final String QURAN_APP_ENDPOINT = "http://salamquran.com/note";
-  public static final String QURAN_APP_ENDPOINT = "http://salamquran.com";
+  public static final String QURAN_APP_BASE = "http://maalquran.com/";
+//  public static final String QURAN_APP_ENDPOINT = "http://maalquran.com/note";
+  public static final String QURAN_APP_ENDPOINT = "http://maalquran.com";
 
   // Settings Key (some of these have corresponding values in preference_keys.xml)
   public static final String PREF_APP_LOCATION = "appLocation";

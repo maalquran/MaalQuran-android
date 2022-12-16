@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android;
+package com.ermile.maalquran.android;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,9 +9,9 @@ import androidx.fragment.app.FragmentManager;
 
 import android.view.MenuItem;
 
-import com.ermile.salamquran.android.ui.QuranActionBarActivity;
-import com.ermile.salamquran.android.ui.fragment.QuranSettingsFragment;
-import com.ermile.salamquran.android.util.AudioManagerUtils;
+import com.ermile.maalquran.android.ui.QuranActionBarActivity;
+import com.ermile.maalquran.android.ui.fragment.QuranSettingsFragment;
+import com.ermile.maalquran.android.util.AudioManagerUtils;
 
 public class QuranPreferenceActivity extends QuranActionBarActivity {
 

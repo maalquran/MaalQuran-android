@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.util
+package com.ermile.maalquran.android.util
 
-import com.ermile.salamquran.android.extension.closeQuietly
+import com.ermile.maalquran.android.extension.closeQuietly
 import io.reactivex.Maybe
 import okhttp3.OkHttpClient
 import okhttp3.Request

@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -9,9 +9,9 @@ import androidx.core.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 
-import static com.ermile.salamquran.android.widgets.AyahToolBar.PipPosition;
+import static com.ermile.maalquran.android.widgets.AyahToolBar.PipPosition;
 
 public class AyahToolBarPip extends View {
   private Path mPath;

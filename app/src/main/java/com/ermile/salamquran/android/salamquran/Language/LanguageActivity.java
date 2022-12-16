@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Language;
+package com.ermile.maalquran.android.maalquran.Language;
 
 import android.os.Bundle;
 
@@ -8,10 +8,10 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Utility.Json;
-import com.ermile.salamquran.android.salamquran.Utility.UserInfo;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Utility.Json;
+import com.ermile.maalquran.android.maalquran.Utility.UserInfo;
 
 import org.json.JSONException;
 import org.json.JSONObject;

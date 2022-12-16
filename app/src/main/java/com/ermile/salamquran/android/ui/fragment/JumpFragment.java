@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.fragment;
+package com.ermile.maalquran.android.ui.fragment;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -23,13 +23,13 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.ui.helpers.JumpDestination;
-import com.ermile.salamquran.android.util.QuranUtils;
-import com.ermile.salamquran.android.widgets.ForceCompleteTextView;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.ui.helpers.JumpDestination;
+import com.ermile.maalquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.widgets.ForceCompleteTextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;

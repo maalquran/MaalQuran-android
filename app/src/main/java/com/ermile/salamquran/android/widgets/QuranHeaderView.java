@@ -1,7 +1,7 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
-import com.ermile.salamquran.android.util.QuranSettings;
-import com.ermile.salamquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.util.QuranUtils;
 
 import android.content.Context;
 import android.util.AttributeSet;

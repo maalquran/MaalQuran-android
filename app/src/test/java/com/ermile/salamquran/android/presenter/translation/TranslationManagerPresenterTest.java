@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.presenter.translation;
+package com.ermile.maalquran.android.presenter.translation;
 
 import android.content.Context;
 
-import com.ermile.salamquran.android.dao.translation.TranslationList;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.dao.translation.TranslationList;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import org.junit.After;
 import org.junit.Before;

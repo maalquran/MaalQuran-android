@@ -1,19 +1,19 @@
-package com.ermile.salamquran.android.presenter.audio
+package com.ermile.maalquran.android.presenter.audio
 
 import android.content.Context
 import android.content.Intent
-import com.ermile.salamquran.android.R
-import com.ermile.salamquran.android.common.QariItem
-import com.ermile.salamquran.android.dao.audio.AudioPathInfo
-import com.ermile.salamquran.android.dao.audio.AudioRequest
-import com.ermile.salamquran.android.data.QuranInfo
-import com.ermile.salamquran.android.data.SuraAyah
-import com.ermile.salamquran.android.presenter.Presenter
-import com.ermile.salamquran.android.service.QuranDownloadService
-import com.ermile.salamquran.android.service.util.ServiceIntentHelper
-import com.ermile.salamquran.android.ui.PagerActivity
-import com.ermile.salamquran.android.util.AudioUtils
-import com.ermile.salamquran.android.util.QuranFileUtils
+import com.ermile.maalquran.android.R
+import com.ermile.maalquran.android.common.QariItem
+import com.ermile.maalquran.android.dao.audio.AudioPathInfo
+import com.ermile.maalquran.android.dao.audio.AudioRequest
+import com.ermile.maalquran.android.data.QuranInfo
+import com.ermile.maalquran.android.data.SuraAyah
+import com.ermile.maalquran.android.presenter.Presenter
+import com.ermile.maalquran.android.service.QuranDownloadService
+import com.ermile.maalquran.android.service.util.ServiceIntentHelper
+import com.ermile.maalquran.android.ui.PagerActivity
+import com.ermile.maalquran.android.util.AudioUtils
+import com.ermile.maalquran.android.util.QuranFileUtils
 import java.io.File
 import javax.inject.Inject
 

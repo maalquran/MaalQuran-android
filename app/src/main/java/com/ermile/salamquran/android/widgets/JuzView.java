@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -13,7 +13,7 @@ import androidx.core.content.ContextCompat;
 import android.text.TextPaint;
 import android.text.TextUtils;
 
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 
 import org.jetbrains.annotations.NotNull;
 

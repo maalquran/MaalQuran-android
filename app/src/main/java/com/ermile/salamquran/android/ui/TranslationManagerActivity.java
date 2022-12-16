@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui;
+package com.ermile.maalquran.android.ui;
 
 import com.google.android.material.snackbar.Snackbar;
 
@@ -8,21 +8,21 @@ import android.os.Bundle;
 import android.util.SparseIntArray;
 import android.view.MenuItem;
 
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.dao.translation.Translation;
-import com.ermile.salamquran.android.dao.translation.TranslationHeader;
-import com.ermile.salamquran.android.dao.translation.TranslationItem;
-import com.ermile.salamquran.android.dao.translation.TranslationRowData;
-import com.ermile.salamquran.android.database.DatabaseHandler;
-import com.ermile.salamquran.android.presenter.translation.TranslationManagerPresenter;
-import com.ermile.salamquran.android.service.QuranDownloadService;
-import com.ermile.salamquran.android.service.util.DefaultDownloadReceiver;
-import com.ermile.salamquran.android.service.util.QuranDownloadNotifier;
-import com.ermile.salamquran.android.service.util.ServiceIntentHelper;
-import com.ermile.salamquran.android.ui.adapter.TranslationsAdapter;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.dao.translation.Translation;
+import com.ermile.maalquran.android.dao.translation.TranslationHeader;
+import com.ermile.maalquran.android.dao.translation.TranslationItem;
+import com.ermile.maalquran.android.dao.translation.TranslationRowData;
+import com.ermile.maalquran.android.database.DatabaseHandler;
+import com.ermile.maalquran.android.presenter.translation.TranslationManagerPresenter;
+import com.ermile.maalquran.android.service.QuranDownloadService;
+import com.ermile.maalquran.android.service.util.DefaultDownloadReceiver;
+import com.ermile.maalquran.android.service.util.QuranDownloadNotifier;
+import com.ermile.maalquran.android.service.util.ServiceIntentHelper;
+import com.ermile.maalquran.android.ui.adapter.TranslationsAdapter;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import java.io.File;
 import java.util.ArrayList;

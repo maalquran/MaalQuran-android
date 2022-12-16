@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Utility;
+package com.ermile.maalquran.android.maalquran.Utility;
 
 import android.content.Context;
 import android.content.pm.ActivityInfo;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 import com.google.android.exoplayer2.ExoPlayerFactory;
 import com.google.android.exoplayer2.SimpleExoPlayer;
 import com.google.android.exoplayer2.source.MediaSource;

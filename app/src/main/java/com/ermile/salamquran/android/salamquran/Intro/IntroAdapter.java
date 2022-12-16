@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Intro;
+package com.ermile.maalquran.android.maalquran.Intro;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,8 +10,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Utility.ColorUtil;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Utility.ColorUtil;
 
 import java.util.List;
 
@@ -61,7 +61,7 @@ public class IntroAdapter extends RecyclerView.Adapter<IntroAdapter.ViewHolder>{
         holder.imageViews.setImageResource(R.drawable.img_intro_4);
         break;
       default:
-        holder.imageViews.setImageResource(R.drawable.salamquran);
+        holder.imageViews.setImageResource(R.drawable.maalquran);
         break;
     }
 

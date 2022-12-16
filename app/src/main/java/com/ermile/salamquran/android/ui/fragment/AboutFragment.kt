@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.ui.fragment
+package com.ermile.maalquran.android.ui.fragment
 
 import android.os.Bundle
 import androidx.preference.PreferenceCategory
 import androidx.preference.PreferenceFragmentCompat
-import com.ermile.salamquran.android.BuildConfig
-import com.ermile.salamquran.android.R
+import com.ermile.maalquran.android.BuildConfig
+import com.ermile.maalquran.android.R
 
 class AboutFragment : PreferenceFragmentCompat() {
 

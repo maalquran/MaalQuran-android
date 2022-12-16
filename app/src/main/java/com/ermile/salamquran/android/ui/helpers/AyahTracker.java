@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
-import com.ermile.salamquran.android.widgets.AyahToolBar;
+import com.ermile.maalquran.android.widgets.AyahToolBar;
 
 import java.util.Set;
 

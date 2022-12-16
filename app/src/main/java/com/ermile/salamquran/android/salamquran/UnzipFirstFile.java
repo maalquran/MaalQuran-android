@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran;
+package com.ermile.maalquran.android.maalquran;
 
 import android.content.Context;
 import android.os.Environment;
@@ -6,10 +6,10 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import com.ermile.salamquran.android.BuildConfig;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Utility.SaveManager;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.BuildConfig;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Utility.SaveManager;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

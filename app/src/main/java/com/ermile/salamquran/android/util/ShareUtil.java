@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.util;
+package com.ermile.maalquran.android.util;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -7,11 +7,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.common.LocalTranslation;
-import com.ermile.salamquran.android.common.QuranAyahInfo;
-import com.ermile.salamquran.android.common.QuranText;
-import com.ermile.salamquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.common.LocalTranslation;
+import com.ermile.maalquran.android.common.QuranAyahInfo;
+import com.ermile.maalquran.android.common.QuranText;
+import com.ermile.maalquran.android.data.QuranInfo;
 
 import java.util.List;
 

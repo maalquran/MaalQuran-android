@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Learn;
+package com.ermile.maalquran.android.maalquran.Learn;
 
 public class LearnModel {
   public static final int GROUP= 100;

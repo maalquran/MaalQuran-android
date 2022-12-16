@@ -1,13 +1,13 @@
-package com.ermile.salamquran.android.model.bookmark;
+package com.ermile.maalquran.android.model.bookmark;
 
 import android.content.Context;
 import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.core.content.FileProvider;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.dao.bookmark.BookmarkData;
-import com.ermile.salamquran.android.database.BookmarksDBAdapter;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkData;
+import com.ermile.maalquran.android.database.BookmarksDBAdapter;
 
 import java.io.File;
 import java.io.IOException;

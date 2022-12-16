@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Learn;
+package com.ermile.maalquran.android.maalquran.Learn;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -10,9 +10,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.api.LearnApi;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.api.LearnApi;
 
 import org.json.JSONArray;
 import org.json.JSONException;

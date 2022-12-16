@@ -30,7 +30,7 @@
  *
  */
 
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -56,7 +56,7 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 
 import timber.log.Timber;
 

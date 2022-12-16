@@ -1,11 +1,11 @@
-package com.ermile.salamquran.android.database;
+package com.ermile.maalquran.android.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import timber.log.Timber;
 

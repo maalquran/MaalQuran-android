@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.dao.translation
+package com.ermile.maalquran.android.dao.translation
 
 data class Translation(val id: Int,
                        val minimumVersion: Int,

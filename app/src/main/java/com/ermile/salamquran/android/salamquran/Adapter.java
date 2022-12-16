@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran;
+package com.ermile.maalquran.android.maalquran;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Utility.ImageViewerActivity;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Utility.ImageViewerActivity;
 import com.github.chrisbanes.photoview.PhotoView;
 
 import java.util.ArrayList;

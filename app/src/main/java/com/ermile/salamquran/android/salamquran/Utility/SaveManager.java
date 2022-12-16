@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Utility;
+package com.ermile.maalquran.android.maalquran.Utility;
 
 
 import android.annotation.SuppressLint;
@@ -142,11 +142,11 @@ public class SaveManager extends ContextWrapper {
     hashMap.put(jsonAyaDay, sharedPreferences.getString(jsonAyaDay, Json.defaultValue.ayaDay));
     hashMap.put(jsonPageDay, sharedPreferences.getString(jsonPageDay, Json.defaultValue.pageDay));
 
-    hashMap.put(url_site, sharedPreferences.getString(url_site, "https://salamquran.com" ));
-    hashMap.put(url_kingdom, sharedPreferences.getString(url_kingdom, "https://salamquran.com/en" ));
-    hashMap.put(url_domain, sharedPreferences.getString(url_domain, "salamquran.com" ));
-    hashMap.put(url_root, sharedPreferences.getString(url_root, "salamquran" ));
-    hashMap.put(url_update, sharedPreferences.getString(url_update, "https://salamquran.com/app/update" ));
+    hashMap.put(url_site, sharedPreferences.getString(url_site, "https://maalquran.com" ));
+    hashMap.put(url_kingdom, sharedPreferences.getString(url_kingdom, "https://maalquran.com/en" ));
+    hashMap.put(url_domain, sharedPreferences.getString(url_domain, "maalquran.com" ));
+    hashMap.put(url_root, sharedPreferences.getString(url_root, "maalquran" ));
+    hashMap.put(url_update, sharedPreferences.getString(url_update, "https://maalquran.com/app/update" ));
 
     return hashMap;
   }

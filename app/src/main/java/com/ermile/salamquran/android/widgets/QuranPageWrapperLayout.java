@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 public abstract class QuranPageWrapperLayout extends ViewGroup {
 

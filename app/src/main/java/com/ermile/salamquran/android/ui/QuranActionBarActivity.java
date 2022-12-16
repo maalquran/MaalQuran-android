@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui;
+package com.ermile.maalquran.android.ui;
 
 import android.os.Build;
 import androidx.annotation.NonNull;

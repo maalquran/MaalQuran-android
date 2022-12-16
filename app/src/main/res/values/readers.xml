@@ -83,29 +83,29 @@
   <string-array translatable="false" name="quran_readers_db_name"/>
 
   <string-array translatable="false" name="quran_readers_urls">
-    <item>"https://dl.salamquran.com/ayat/parhizgar-murattal-48/"</item>
-    <item>"https://dl.salamquran.com/ayat/mansouri-murattal-40/"</item>
-    <item>"https://dl.salamquran.com/ayat/sabzali-murattal-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/khalafi-murattal-192/"</item>
-    <item>"https://dl.salamquran.com/ayat/qaraati.fa.qaraati-tafsir-16/"</item>
-    <item>"https://dl.salamquran.com/ayat/ansarian.fa.salimi-translation-16/"</item>
-    <item>"https://dl.salamquran.com/ayat/foladvand.fa.hedayatfar-translation-40/"</item>
-    <item>"https://dl.salamquran.com/ayat/makarem.fa.kabiri-translation-16/"</item>
-    <item>"https://dl.salamquran.com/ayat/abdulbasit-murattal-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/abdulbasit-mujawwad-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/afasy-murattal-192/"</item>
-    <item>"https://dl.salamquran.com/ayat/husary-murattal-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/husary-mujawwad-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/husary-muallim-16/"</item>
-    <item>"https://dl.salamquran.com/ayat/minshawi-mujawwad-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/minshawi-murattal-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/minshawi-withchild-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/rifai-murattal-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/azerbaijani.az.balayev-translation-16/"</item>
-    <item>"https://dl.salamquran.com/ayat/sahih_international.en.ibrahim_walk-translation-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/muhammad_jibreel-murattal-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/mustafa_ismail-murattal-32/"</item>
-    <item>"https://dl.salamquran.com/ayat/saeediyan-murattal-16/"</item>
+    <item>"https://dl.maalquran.com/ayat/parhizgar-murattal-48/"</item>
+    <item>"https://dl.maalquran.com/ayat/mansouri-murattal-40/"</item>
+    <item>"https://dl.maalquran.com/ayat/sabzali-murattal-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/khalafi-murattal-192/"</item>
+    <item>"https://dl.maalquran.com/ayat/qaraati.fa.qaraati-tafsir-16/"</item>
+    <item>"https://dl.maalquran.com/ayat/ansarian.fa.salimi-translation-16/"</item>
+    <item>"https://dl.maalquran.com/ayat/foladvand.fa.hedayatfar-translation-40/"</item>
+    <item>"https://dl.maalquran.com/ayat/makarem.fa.kabiri-translation-16/"</item>
+    <item>"https://dl.maalquran.com/ayat/abdulbasit-murattal-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/abdulbasit-mujawwad-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/afasy-murattal-192/"</item>
+    <item>"https://dl.maalquran.com/ayat/husary-murattal-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/husary-mujawwad-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/husary-muallim-16/"</item>
+    <item>"https://dl.maalquran.com/ayat/minshawi-mujawwad-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/minshawi-murattal-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/minshawi-withchild-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/rifai-murattal-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/azerbaijani.az.balayev-translation-16/"</item>
+    <item>"https://dl.maalquran.com/ayat/sahih_international.en.ibrahim_walk-translation-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/muhammad_jibreel-murattal-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/mustafa_ismail-murattal-32/"</item>
+    <item>"https://dl.maalquran.com/ayat/saeediyan-murattal-16/"</item>
   </string-array>
 
   <!-- actual qari names -->

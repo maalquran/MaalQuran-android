@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.util
+package com.ermile.maalquran.android.util
 
 import android.content.Context
 //import com.crashlytics.android.Crashlytics //1L

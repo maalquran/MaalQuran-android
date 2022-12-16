@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Learn;
+package com.ermile.maalquran.android.maalquran.Learn;
 
 
 
@@ -14,7 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 import java.util.ArrayList;
 
 public class LearnAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

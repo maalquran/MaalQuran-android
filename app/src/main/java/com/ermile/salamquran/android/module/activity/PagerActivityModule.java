@@ -1,15 +1,15 @@
-package com.ermile.salamquran.android.module.activity;
+package com.ermile.maalquran.android.module.activity;
 
 import android.content.Context;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.di.ActivityScope;
-import com.ermile.salamquran.android.ui.PagerActivity;
-import com.ermile.salamquran.android.ui.helpers.AyahSelectedListener;
-import com.ermile.salamquran.android.util.QuranScreenInfo;
-import com.ermile.salamquran.android.util.QuranUtils;
-import com.ermile.salamquran.android.util.TranslationUtil;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.di.ActivityScope;
+import com.ermile.maalquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.ui.helpers.AyahSelectedListener;
+import com.ermile.maalquran.android.util.QuranScreenInfo;
+import com.ermile.maalquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.util.TranslationUtil;
 
 import dagger.Module;
 import dagger.Provides;

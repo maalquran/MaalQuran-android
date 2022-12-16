@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.translation
+package com.ermile.maalquran.android.ui.translation
 
 import android.content.Context
 import android.graphics.Color
@@ -14,17 +14,17 @@ import android.widget.TextView
 import androidx.annotation.LayoutRes
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.ermile.salamquran.android.R
-import com.ermile.salamquran.android.common.QuranAyahInfo
-import com.ermile.salamquran.android.data.SuraAyah
-import com.ermile.salamquran.android.model.translation.ArabicDatabaseUtils
-import com.ermile.salamquran.android.ui.helpers.ExpandTafseerSpan
-import com.ermile.salamquran.android.ui.helpers.UthmaniSpan
-import com.ermile.salamquran.android.ui.util.TypefaceManager
-import com.ermile.salamquran.android.util.QuranSettings
-import com.ermile.salamquran.android.util.QuranUtils
-import com.ermile.salamquran.android.widgets.AyahNumberView
-import com.ermile.salamquran.android.widgets.DividerView
+import com.ermile.maalquran.android.R
+import com.ermile.maalquran.android.common.QuranAyahInfo
+import com.ermile.maalquran.android.data.SuraAyah
+import com.ermile.maalquran.android.model.translation.ArabicDatabaseUtils
+import com.ermile.maalquran.android.ui.helpers.ExpandTafseerSpan
+import com.ermile.maalquran.android.ui.helpers.UthmaniSpan
+import com.ermile.maalquran.android.ui.util.TypefaceManager
+import com.ermile.maalquran.android.util.QuranSettings
+import com.ermile.maalquran.android.util.QuranUtils
+import com.ermile.maalquran.android.widgets.AyahNumberView
+import com.ermile.maalquran.android.widgets.DividerView
 
 internal class TranslationAdapter(private val context: Context,
                                   private val recyclerView: RecyclerView,

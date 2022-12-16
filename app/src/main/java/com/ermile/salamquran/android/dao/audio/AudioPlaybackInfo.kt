@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.dao.audio
+package com.ermile.maalquran.android.dao.audio
 
-import com.ermile.salamquran.android.data.SuraAyah
+import com.ermile.maalquran.android.data.SuraAyah
 
 data class AudioPlaybackInfo(val currentAyah: SuraAyah,
                              val timesPlayed: Int = 1,

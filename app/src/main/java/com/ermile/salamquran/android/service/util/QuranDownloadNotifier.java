@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.service.util;
+package com.ermile.maalquran.android.service.util;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -9,8 +9,8 @@ import android.content.Intent;
 import android.os.Build;
 
 //import com.crashlytics.android.Crashlytics; //1L
-import com.ermile.salamquran.android.QuranDataActivity;
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.QuranDataActivity;
+import com.ermile.maalquran.android.R;
 
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
@@ -35,7 +35,7 @@ public class QuranDownloadNotifier {
 
   public static class ProgressIntent {
     public static final String INTENT_NAME =
-        "com.ermile.salamquran.android.download.ProgressUpdate";
+        "com.ermile.maalquran.android.download.ProgressUpdate";
     static final String NAME = "notificationTitle";
     public static final String DOWNLOAD_KEY = "downloadKey";
     public static final String DOWNLOAD_TYPE = "downloadType";

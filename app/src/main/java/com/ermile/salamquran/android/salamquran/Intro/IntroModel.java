@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Intro;
+package com.ermile.maalquran.android.maalquran.Intro;
 
 public class IntroModel {
   String image,title,desc;

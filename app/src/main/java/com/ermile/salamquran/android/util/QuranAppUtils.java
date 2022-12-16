@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.util;
+package com.ermile.maalquran.android.util;
 
 import android.text.TextUtils;
 
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.data.SuraAyah;
 
 import org.json.JSONObject;
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".salamquran.Learn.LearnActivity_level_info">
+    tools:context=".maalquran.Learn.LearnActivity_level_info">
 
 
   <include
@@ -35,7 +35,7 @@
 
       <ImageView
           android:id="@+id/image_video"
-          android:src="@drawable/salamquran"
+          android:src="@drawable/maalquran"
           android:scaleType="centerCrop"
           android:tint="#9F000000"
           android:layout_width="match_parent"

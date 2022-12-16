@@ -1,21 +1,21 @@
-package com.ermile.salamquran.android.presenter.quran.ayahtracker;
+package com.ermile.maalquran.android.presenter.quran.ayahtracker;
 
 import android.app.Activity;
 import androidx.annotation.Nullable;
 import android.view.MotionEvent;
 
-import com.ermile.salamquran.android.common.HighlightInfo;
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
-import com.ermile.salamquran.android.data.QuranInfo;
-import com.ermile.salamquran.android.data.SuraAyah;
-import com.ermile.salamquran.android.di.QuranPageScope;
-import com.ermile.salamquran.android.presenter.Presenter;
-import com.ermile.salamquran.android.ui.PagerActivity;
-import com.ermile.salamquran.android.ui.helpers.AyahSelectedListener;
-import com.ermile.salamquran.android.ui.helpers.AyahTracker;
-import com.ermile.salamquran.android.ui.helpers.HighlightType;
-import com.ermile.salamquran.android.util.QuranFileUtils;
-import com.ermile.salamquran.android.widgets.AyahToolBar;
+import com.ermile.maalquran.android.common.HighlightInfo;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.data.QuranInfo;
+import com.ermile.maalquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.di.QuranPageScope;
+import com.ermile.maalquran.android.presenter.Presenter;
+import com.ermile.maalquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.ui.helpers.AyahSelectedListener;
+import com.ermile.maalquran.android.ui.helpers.AyahTracker;
+import com.ermile.maalquran.android.ui.helpers.HighlightType;
+import com.ermile.maalquran.android.util.QuranFileUtils;
+import com.ermile.maalquran.android.widgets.AyahToolBar;
 import com.ermile.page.common.data.AyahCoordinates;
 import com.ermile.page.common.data.PageCoordinates;
 

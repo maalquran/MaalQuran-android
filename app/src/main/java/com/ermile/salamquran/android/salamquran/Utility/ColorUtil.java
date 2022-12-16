@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Utility;
+package com.ermile.maalquran.android.maalquran.Utility;
 
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;

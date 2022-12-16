@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.helpers
+package com.ermile.maalquran.android.ui.helpers
 
 import android.text.style.ClickableSpan
 import android.view.View

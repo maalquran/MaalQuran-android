@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui;
+package com.ermile.maalquran.android.ui;
 
 import android.app.SearchManager;
 import android.content.ComponentName;
@@ -20,36 +20,36 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 //import com.crashlytics.android.answers.Answers; //1L
 //import com.crashlytics.android.answers.CustomEvent; //1L
-import com.ermile.salamquran.android.AboutUsActivity;
-import com.ermile.salamquran.android.HelpActivity;
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.QuranPreferenceActivity;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.SearchActivity;
-import com.ermile.salamquran.android.ShortcutsActivity;
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.model.bookmark.RecentPageModel;
-import com.ermile.salamquran.android.presenter.bookmark.BookmarksContextualModePresenter;
-import com.ermile.salamquran.android.presenter.translation.TranslationManagerPresenter;
-import com.ermile.salamquran.android.salamquran.Learn.LearnFragment;
-import com.ermile.salamquran.android.salamquran.Mag.MagFragment;
-import com.ermile.salamquran.android.salamquran.Notification.NotificationSearvic;
-import com.ermile.salamquran.android.salamquran.SearchFragment;
-import com.ermile.salamquran.android.salamquran.UnzipFirstFile;
-import com.ermile.salamquran.android.salamquran.Utility.UserInfo;
-import com.ermile.salamquran.android.service.AudioService;
-import com.ermile.salamquran.android.ui.fragment.AddTagDialog;
-import com.ermile.salamquran.android.ui.fragment.BookmarksFragment;
-import com.ermile.salamquran.android.ui.fragment.JumpFragment;
-import com.ermile.salamquran.android.ui.fragment.JuzListFragment;
-import com.ermile.salamquran.android.ui.fragment.QuranSettingsFragment;
-import com.ermile.salamquran.android.ui.fragment.SuraListFragment;
-import com.ermile.salamquran.android.ui.fragment.TagBookmarkDialog;
-import com.ermile.salamquran.android.ui.helpers.JumpDestination;
-import com.ermile.salamquran.android.util.AudioUtils;
-import com.ermile.salamquran.android.util.QuranSettings;
-import com.ermile.salamquran.android.util.QuranUtils;
-import com.ermile.salamquran.android.widgets.SlidingTabLayout;
+import com.ermile.maalquran.android.AboutUsActivity;
+import com.ermile.maalquran.android.HelpActivity;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.QuranPreferenceActivity;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.SearchActivity;
+import com.ermile.maalquran.android.ShortcutsActivity;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.model.bookmark.RecentPageModel;
+import com.ermile.maalquran.android.presenter.bookmark.BookmarksContextualModePresenter;
+import com.ermile.maalquran.android.presenter.translation.TranslationManagerPresenter;
+import com.ermile.maalquran.android.maalquran.Learn.LearnFragment;
+import com.ermile.maalquran.android.maalquran.Mag.MagFragment;
+import com.ermile.maalquran.android.maalquran.Notification.NotificationSearvic;
+import com.ermile.maalquran.android.maalquran.SearchFragment;
+import com.ermile.maalquran.android.maalquran.UnzipFirstFile;
+import com.ermile.maalquran.android.maalquran.Utility.UserInfo;
+import com.ermile.maalquran.android.service.AudioService;
+import com.ermile.maalquran.android.ui.fragment.AddTagDialog;
+import com.ermile.maalquran.android.ui.fragment.BookmarksFragment;
+import com.ermile.maalquran.android.ui.fragment.JumpFragment;
+import com.ermile.maalquran.android.ui.fragment.JuzListFragment;
+import com.ermile.maalquran.android.ui.fragment.QuranSettingsFragment;
+import com.ermile.maalquran.android.ui.fragment.SuraListFragment;
+import com.ermile.maalquran.android.ui.fragment.TagBookmarkDialog;
+import com.ermile.maalquran.android.ui.helpers.JumpDestination;
+import com.ermile.maalquran.android.util.AudioUtils;
+import com.ermile.maalquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.widgets.SlidingTabLayout;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.util.concurrent.TimeUnit;
 import javax.inject.Inject;
@@ -106,7 +106,7 @@ public class QuranActivity extends QuranActionBarActivity
   @Inject TranslationManagerPresenter translationManagerPresenter;
   @Inject BookmarksContextualModePresenter bookmarksContextualModePresenter;
 
-  //salamquran
+  //maalquran
   LinearLayout linear_quranList;
   BottomNavigationView bottomNavigation;
   FrameLayout frameLayout;
@@ -181,7 +181,7 @@ public class QuranActivity extends QuranActionBarActivity
       }
     }
 
-    //salamquran
+    //maalquran
     try {
       new UnzipFirstFile(this);
       startService(new Intent(this, NotificationSearvic.class));
@@ -208,7 +208,7 @@ public class QuranActivity extends QuranActionBarActivity
 
   @Override
   public void onResume() {
-    //salamquran
+    //maalquran
     setVisibilityQuran();
     compositeDisposable.add(recentPages.subscribe());
     super.onResume();
@@ -301,7 +301,7 @@ public class QuranActivity extends QuranActionBarActivity
 
 
 
-  //salamquran
+  //maalquran
   private void market_apk(){
     Intent intent = new Intent(Intent.ACTION_VIEW);
     intent.setData(Uri.parse(UserInfo.getUrlUpdate(getApplicationContext())));

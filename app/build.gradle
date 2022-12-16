@@ -34,7 +34,7 @@ android {
     flavorDimensions "pageType"
     productFlavors {
         madani {
-            applicationId "com.ermile.salamquran.android"
+            applicationId "com.ermile.maalquran.android"
         }
     }
 
@@ -137,7 +137,7 @@ dependencies {
     errorprone 'com.google.errorprone:error_prone_core:2.3.2'
 //  implementation 'com.crashlytics.sdk.android:crashlytics:2.9.9'
 
-//  salamquran
+//  maalquran
     implementation 'com.google.android.material:material:1.2.0-alpha02'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'

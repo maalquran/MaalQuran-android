@@ -1,7 +1,7 @@
-package com.ermile.salamquran.android.ui.translation;
+package com.ermile.maalquran.android.ui.translation;
 
-import com.ermile.salamquran.android.common.QuranAyahInfo;
-import com.ermile.salamquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.common.QuranAyahInfo;
+import com.ermile.maalquran.android.data.SuraAyah;
 
 import androidx.annotation.IntDef;
 import androidx.annotation.NonNull;

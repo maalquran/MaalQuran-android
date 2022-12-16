@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.presenter.quran;
+package com.ermile.maalquran.android.presenter.quran;
 
 import android.graphics.Bitmap;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import com.ermile.salamquran.android.dao.bookmark.Bookmark;
+import com.ermile.maalquran.android.dao.bookmark.Bookmark;
 import com.ermile.page.common.data.AyahCoordinates;
 import com.ermile.page.common.data.PageCoordinates;
 

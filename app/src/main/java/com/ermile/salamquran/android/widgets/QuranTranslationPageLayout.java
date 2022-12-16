@@ -1,13 +1,13 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.content.Context;
 import android.graphics.Color;
 import androidx.annotation.NonNull;
 import android.view.View;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.ui.translation.TranslationView;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.ui.translation.TranslationView;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 public class QuranTranslationPageLayout extends QuranPageLayout {
   private TranslationView translationView;

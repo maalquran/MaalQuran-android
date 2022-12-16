@@ -1,3 +1,3 @@
-package com.ermile.salamquran.android.dao
+package com.ermile.maalquran.android.dao
 
 data class Tag(val id: Long, val name: String)

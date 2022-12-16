@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.presenter;
+package com.ermile.maalquran.android.presenter;
 
 import android.Manifest;
 import android.content.Context;
@@ -10,12 +10,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 import androidx.core.app.ActivityCompat;
 
-import com.ermile.salamquran.android.QuranImportActivity;
-import com.ermile.salamquran.android.dao.bookmark.BookmarkData;
-import com.ermile.salamquran.android.model.bookmark.BookmarkImportExportModel;
-import com.ermile.salamquran.android.model.bookmark.BookmarkModel;
-import com.ermile.salamquran.android.service.util.PermissionUtil;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.QuranImportActivity;
+import com.ermile.maalquran.android.dao.bookmark.BookmarkData;
+import com.ermile.maalquran.android.model.bookmark.BookmarkImportExportModel;
+import com.ermile.maalquran.android.model.bookmark.BookmarkModel;
+import com.ermile.maalquran.android.service.util.PermissionUtil;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 import java.io.FileDescriptor;
 import java.io.FileInputStream;

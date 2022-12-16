@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.Mag;
+package com.ermile.maalquran.android.maalquran.Mag;
 
 
 import android.os.Bundle;
@@ -14,10 +14,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.salamquran.Utility.TempLoginUtil;
-import com.ermile.salamquran.android.salamquran.api.MagApi;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.maalquran.Utility.TempLoginUtil;
+import com.ermile.maalquran.android.maalquran.api.MagApi;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -164,7 +164,7 @@ public class  MagFragment extends Fragment {
   {
   "id": "4S",
   "title": "ترجمه‌های غیرحرفه‌ای به تحریف قرآن می‌انجامد",
-  "link": "https://salamquran.com/fa/news/ابوالفضل-بهرام-پور-ترجمه-های-غیرحرفه-ای-به-تحریف-قرآن-می-انجامد",
+  "link": "https://maalquran.com/fa/news/ابوالفضل-بهرام-پور-ترجمه-های-غیرحرفه-ای-به-تحریف-قرآن-می-انجامد",
   "excerpt": "حریف می‌انجامد.",
   "subtitle": "ابوالفضل ب",
   "content": "ابوالفضل م‌پور",
@@ -173,12 +173,12 @@ public class  MagFragment extends Fragment {
 		"title": "خبرگذاری ایکنا",
 		"Url": null
 	  },
-    "thumb": "https://salamquran.com/files/1/180-73c70e9ee92dd6819093c5efe62727bd.jpg",
+    "thumb": "https://maalquran.com/files/1/180-73c70e9ee92dd6819093c5efe62727bd.jpg",
     "gallery": [
-		"https://salamquran.com/files/1/121-8f4eabc982f82b81d3f4740333923f67.png",
-		"https://salamquran.com/files/1/122-f4482ae64ef6fda1ac485e35e0473dfe.png",
-		"https://salamquran.com/files/1/123-4e0a30231c3b945f2dfd8a28fb6cd9fe.png",
-		"https://salamquran.com/files/1/124-2a6e0ca583ba6f257c0143fbf4185a56.png"
+		"https://maalquran.com/files/1/121-8f4eabc982f82b81d3f4740333923f67.png",
+		"https://maalquran.com/files/1/122-f4482ae64ef6fda1ac485e35e0473dfe.png",
+		"https://maalquran.com/files/1/123-4e0a30231c3b945f2dfd8a28fb6cd9fe.png",
+		"https://maalquran.com/files/1/124-2a6e0ca583ba6f257c0143fbf4185a56.png"
 	]
   },
   "special": "editor",

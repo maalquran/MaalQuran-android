@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.presenter;
+package com.ermile.maalquran.android.presenter;
 
 public interface Presenter<T> {
   void bind(T what);

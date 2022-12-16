@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.ui.fragment
+package com.ermile.maalquran.android.ui.fragment
 
 import android.annotation.SuppressLint
 import android.app.Dialog
@@ -7,10 +7,10 @@ import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.textfield.TextInputEditText
-import com.ermile.salamquran.android.QuranApplication
-import com.ermile.salamquran.android.R
-import com.ermile.salamquran.android.dao.Tag
-import com.ermile.salamquran.android.presenter.bookmark.AddTagDialogPresenter
+import com.ermile.maalquran.android.QuranApplication
+import com.ermile.maalquran.android.R
+import com.ermile.maalquran.android.dao.Tag
+import com.ermile.maalquran.android.presenter.bookmark.AddTagDialogPresenter
 import javax.inject.Inject
 
 class AddTagDialog : androidx.fragment.app.DialogFragment() {

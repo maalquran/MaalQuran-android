@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
-import com.ermile.salamquran.android.data.SuraAyah;
+import com.ermile.maalquran.android.data.SuraAyah;
 
 public interface AyahSelectedListener {
 

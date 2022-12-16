@@ -1,13 +1,13 @@
-package com.ermile.salamquran.android.ui.helpers;
+package com.ermile.maalquran.android.ui.helpers;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.ui.fragment.AyahPlaybackFragment;
-import com.ermile.salamquran.android.ui.fragment.AyahTranslationFragment;
-import com.ermile.salamquran.android.ui.fragment.TagBookmarkDialog;
-import com.ermile.salamquran.android.widgets.IconPageIndicator;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.ui.fragment.AyahPlaybackFragment;
+import com.ermile.maalquran.android.ui.fragment.AyahTranslationFragment;
+import com.ermile.maalquran.android.ui.fragment.TagBookmarkDialog;
+import com.ermile.maalquran.android.widgets.IconPageIndicator;
 
 public class SlidingPagerAdapter extends FragmentStatePagerAdapter implements
     IconPageIndicator.IconPagerAdapter {

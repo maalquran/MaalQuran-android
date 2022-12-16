@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.extension
+package com.ermile.maalquran.android.extension
 
 import java.io.Closeable
 

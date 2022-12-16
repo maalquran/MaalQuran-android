@@ -1,8 +1,8 @@
-package com.ermile.salamquran.android.dao.audio
+package com.ermile.maalquran.android.dao.audio
 
 import android.os.Parcelable
-import com.ermile.salamquran.android.common.QariItem
-import com.ermile.salamquran.android.data.SuraAyah
+import com.ermile.maalquran.android.common.QariItem
+import com.ermile.maalquran.android.data.SuraAyah
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize

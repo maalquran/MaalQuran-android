@@ -1,6 +1,6 @@
-package com.ermile.salamquran.android.common
+package com.ermile.maalquran.android.common
 
-import com.ermile.salamquran.android.data.SuraAyah
+import com.ermile.maalquran.android.data.SuraAyah
 
 data class TranslationMetadata(val sura: Int,
                                val ayah: Int,

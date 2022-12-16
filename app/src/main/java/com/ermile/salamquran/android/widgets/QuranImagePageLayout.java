@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -6,9 +6,9 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.ermile.salamquran.android.ui.helpers.AyahSelectedListener;
-import com.ermile.salamquran.android.ui.util.PageController;
-import com.ermile.salamquran.android.util.QuranSettings;
+import com.ermile.maalquran.android.ui.helpers.AyahSelectedListener;
+import com.ermile.maalquran.android.ui.util.PageController;
+import com.ermile.maalquran.android.util.QuranSettings;
 
 public class QuranImagePageLayout extends QuranPageLayout {
   private HighlightingImageView imageView;

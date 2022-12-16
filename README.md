@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/salamquran/SalamQuran-website/master/public_html/static/images/logo.png" alt="SalamQuran logo" align="right" width="200px"/>
+<img src="https://raw.githubusercontent.com/maalquran/MaalQuran-website/master/public_html/static/images/logo.png" alt="MaalQuran logo" align="right" width="200px"/>
 
-# SalamQuran
+# MaalQuran
 > Quran Anywhere Anytime
 
 Say hello to Quran! Quran is calling you.
@@ -23,7 +23,7 @@ You need to setup project? call us to help you run it eaisly or read dash docume
 
 
 ## Contributing
-1. Fork it (<https://github.com/salamquran/SalamQuran-android/fork>)
+1. Fork it (<https://github.com/maalquran/MaalQuran-android/fork>)
 3. Commit your changes (`git commit -am 'Add some changes'`)
 4. Push to the branch (`git push origin master`)
 5. Create a new Pull Request

@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-package com.ermile.salamquran.android.service.util;
+package com.ermile.maalquran.android.service.util;
 
 /**
  * Represents something that can react to audio focus events. We implement this instead of just

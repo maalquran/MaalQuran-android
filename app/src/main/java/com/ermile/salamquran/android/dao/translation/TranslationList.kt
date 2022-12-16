@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.dao.translation
+package com.ermile.maalquran.android.dao.translation
 
 import com.squareup.moshi.Json
 

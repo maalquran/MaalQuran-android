@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.salamquran.api;
+package com.ermile.maalquran.android.maalquran.api;
 
 import android.content.Context;
 import android.os.Build;
@@ -7,12 +7,12 @@ import android.util.Log;
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.toolbox.StringRequest;
-import com.ermile.salamquran.android.QuranApplication;
-import com.ermile.salamquran.android.salamquran.LookServer;
-import com.ermile.salamquran.android.salamquran.Utility.Json;
-import com.ermile.salamquran.android.salamquran.Utility.SaveManager;
-import com.ermile.salamquran.android.salamquran.Utility.UserInfo;
-import com.ermile.salamquran.android.salamquran.Utility.Url;
+import com.ermile.maalquran.android.QuranApplication;
+import com.ermile.maalquran.android.maalquran.LookServer;
+import com.ermile.maalquran.android.maalquran.Utility.Json;
+import com.ermile.maalquran.android.maalquran.Utility.SaveManager;
+import com.ermile.maalquran.android.maalquran.Utility.UserInfo;
+import com.ermile.maalquran.android.maalquran.Utility.Url;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

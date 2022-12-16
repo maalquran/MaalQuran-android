@@ -12,7 +12,7 @@
       android:layout_height="match_parent"
       android:orientation="vertical"
       >
-    <com.ermile.salamquran.android.widgets.QuranSpinner
+    <com.ermile.maalquran.android.widgets.QuranSpinner
         android:id="@+id/translator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,14 +22,14 @@
         android:textSize="14sp"
         android:textStyle="bold"
         />
-    <com.ermile.salamquran.android.widgets.InlineTranslationView
+    <com.ermile.maalquran.android.widgets.InlineTranslationView
         android:id="@+id/translation_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
   </LinearLayout>
 
-  <com.ermile.salamquran.android.widgets.LeftToRightLinearLayout
+  <com.ermile.maalquran.android.widgets.LeftToRightLinearLayout
       android:id="@+id/controls"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
         android:backgroundTint="@color/actionAya_translateManager_btn"
         tools:targetApi="lollipop"
         />
-  </com.ermile.salamquran.android.widgets.LeftToRightLinearLayout>
+  </com.ermile.maalquran.android.widgets.LeftToRightLinearLayout>
 
   <LinearLayout
       android:id="@+id/empty_state"

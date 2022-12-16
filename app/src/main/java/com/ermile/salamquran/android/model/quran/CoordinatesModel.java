@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.model.quran;
+package com.ermile.maalquran.android.model.quran;
 
 import android.graphics.RectF;
 
-import com.ermile.salamquran.android.data.AyahInfoDatabaseHandler;
-import com.ermile.salamquran.android.data.AyahInfoDatabaseProvider;
-import com.ermile.salamquran.android.di.ActivityScope;
+import com.ermile.maalquran.android.data.AyahInfoDatabaseHandler;
+import com.ermile.maalquran.android.data.AyahInfoDatabaseProvider;
+import com.ermile.maalquran.android.di.ActivityScope;
 import com.ermile.page.common.data.AyahBounds;
 import com.ermile.page.common.data.AyahCoordinates;
 import com.ermile.page.common.data.PageCoordinates;

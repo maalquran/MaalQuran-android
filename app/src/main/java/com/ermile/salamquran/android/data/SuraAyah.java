@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.data;
+package com.ermile.maalquran.android.data;
 
 import android.os.Parcel;
 import android.os.Parcelable;

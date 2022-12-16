@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.presenter.bookmark;
+package com.ermile.maalquran.android.presenter.bookmark;
 
 import androidx.core.util.Pair;
 
-import com.ermile.salamquran.android.dao.Tag;
-import com.ermile.salamquran.android.model.bookmark.BookmarkModel;
-import com.ermile.salamquran.android.ui.fragment.TagBookmarkDialog;
+import com.ermile.maalquran.android.dao.Tag;
+import com.ermile.maalquran.android.model.bookmark.BookmarkModel;
+import com.ermile.maalquran.android.ui.fragment.TagBookmarkDialog;
 
 import org.junit.Before;
 import org.junit.BeforeClass;

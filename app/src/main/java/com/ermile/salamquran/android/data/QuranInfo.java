@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.data;
+package com.ermile.maalquran.android.data;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,8 +7,8 @@ import android.text.TextUtils;
 //import com.crashlytics.android.Crashlytics; //1L
 import com.ermile.data.source.PageProvider;
 import com.ermile.data.source.QuranDataSource;
-import com.ermile.salamquran.android.R;
-import com.ermile.salamquran.android.util.QuranUtils;
+import com.ermile.maalquran.android.R;
+import com.ermile.maalquran.android.util.QuranUtils;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

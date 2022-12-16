@@ -1,10 +1,10 @@
-package com.ermile.salamquran.android.presenter.bookmark;
+package com.ermile.maalquran.android.presenter.bookmark;
 
-import com.ermile.salamquran.android.data.Constants;
-import com.ermile.salamquran.android.di.ActivityScope;
-import com.ermile.salamquran.android.model.bookmark.RecentPageModel;
-import com.ermile.salamquran.android.presenter.Presenter;
-import com.ermile.salamquran.android.ui.PagerActivity;
+import com.ermile.maalquran.android.data.Constants;
+import com.ermile.maalquran.android.di.ActivityScope;
+import com.ermile.maalquran.android.model.bookmark.RecentPageModel;
+import com.ermile.maalquran.android.presenter.Presenter;
+import com.ermile.maalquran.android.ui.PagerActivity;
 
 import javax.inject.Inject;
 

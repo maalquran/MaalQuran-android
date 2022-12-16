@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.widgets;
+package com.ermile.maalquran.android.widgets;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -10,7 +10,7 @@ import android.graphics.drawable.Drawable;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 
-import com.ermile.salamquran.android.R;
+import com.ermile.maalquran.android.R;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatImageView;

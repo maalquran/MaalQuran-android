@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.dao.bookmark
+package com.ermile.maalquran.android.dao.bookmark
 
 data class Bookmark @JvmOverloads constructor(val id: Long,
                                               // sura and ayah are nullable for page bookmarks

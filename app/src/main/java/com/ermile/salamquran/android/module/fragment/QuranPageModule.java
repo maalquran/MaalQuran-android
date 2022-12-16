@@ -1,4 +1,4 @@
-package com.ermile.salamquran.android.module.fragment;
+package com.ermile.maalquran.android.module.fragment;
 
 import dagger.Module;
 import dagger.Provides;
